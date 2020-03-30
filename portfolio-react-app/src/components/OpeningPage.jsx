@@ -7,8 +7,15 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 class OpeningPage extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            contact:[],
+        }
     }
+
+    updateArray = (array) =>{
+        this.setState({contact:array})
+    }
+
     render() {
         return (
             <div className='links'>
@@ -32,7 +39,7 @@ class OpeningPage extends Component {
                         <Projects />
                     </Route>
                     <Route path="/contact">
-                        <Contact />
+                        <Contact updateArray={this.updateArray}/>
                     </Route>
                 </Router>
                 <div>
