@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ContactDisplay from './ContactDisplay';
 
 class Contact extends Component {
     constructor(props) {
@@ -35,9 +36,6 @@ class Contact extends Component {
         //globally update state
         this.setState({ contact: this.state.contact })
 
-        //send up array in call back function
-        this.props.updateArray(this.state.contact)
-
         //reset form
         this.setState(
             {
@@ -64,11 +62,14 @@ class Contact extends Component {
                 <br />
                 <div>
                     <label htmlFor="message">Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.email} onChange={this.handleInputs} />
+                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.message} onChange={this.handleInputs} />
                 </div>
                 <br />
                 <div>
                     <button onClick={this.handleSubmission}>Send Message</button>
+                </div>
+                <div>
+                    <ContactDisplay contact={this.state.contact}/>
                 </div>
 
             </div>

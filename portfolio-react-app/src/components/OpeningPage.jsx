@@ -4,16 +4,13 @@ import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
+
 class OpeningPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            contact:[],
+            
         }
-    }
-
-    updateArray = (array) =>{
-        this.setState({contact:array})
     }
 
     render() {
