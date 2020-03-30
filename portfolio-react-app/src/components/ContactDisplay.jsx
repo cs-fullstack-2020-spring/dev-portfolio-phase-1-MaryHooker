@@ -8,7 +8,7 @@ class ContactDisplay extends Component {
     render() { 
         return ( 
             <div>
-                <h2>Messages</h2>
+                <h2>Messages Appear Below</h2>
                 {
                     this.props.contact.map((contact, index) =>{
                         return(

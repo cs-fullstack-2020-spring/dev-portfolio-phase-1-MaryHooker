@@ -48,27 +48,30 @@ class Contact extends Component {
 
     render() {
         return (
-            <div>
-                <h2>Contact Me</h2>
-                <div>
+            <div className='contactContainer'>
+
+                <div className='nameInput'>
                     <label htmlFor="name">Name: </label>
-                    <input type="text" id='name' name='name' value={this.state.name} onChange={this.handleInputs} />
+                    <br/>
+                    <input type="text" id='name' name='name' value={this.state.name} onChange={this.handleInputs} className='inputBox' />
                 </div>
-                <br />
-                <div>
+
+                <div className='emailInput'>
                     <label htmlFor="email">Email: </label>
-                    <input type="email" id='email' name='email' value={this.state.email} onChange={this.handleInputs} />
+                    <br/>
+                    <input type="email" id='email' name='email' value={this.state.email} onChange={this.handleInputs} className='inputBox' />
                 </div>
-                <br />
-                <div>
+
+                <div className='messageInput'>
                     <label htmlFor="message">Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.message} onChange={this.handleInputs} />
+                    <br/>
+                    <textarea name="message" id="message" cols="50" rows="15" value={this.state.message} onChange={this.handleInputs} className='messageBox'/>
                 </div>
-                <br />
-                <div>
-                    <button onClick={this.handleSubmission}>Send Message</button>
+              
+                <div className='buttonPlace'>
+                    <button onClick={this.handleSubmission} className='submitButton' >Send Message</button>
                 </div>
-                <div>
+                <div className='displayInParent'>
                     <ContactDisplay contact={this.state.contact}/>
                 </div>
 

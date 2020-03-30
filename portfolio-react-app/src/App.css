@@ -187,3 +187,58 @@ padding-right: 2%;
 
 /* ************************************************ */
 /* Contact Page */
+
+.contactContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+.nameInput{
+  grid-column: 2;
+  padding: 5%;
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+.emailInput{
+  grid-column: 2; 
+  padding: 5%;
+  font-size: 25px;
+}
+
+.messageInput{
+  grid-column: 2;
+  padding: 5%;
+  font-size: 25px;
+}
+
+.buttonPlace{
+  grid-column: 2;
+}
+
+.submitButton{
+  background-color: rgb(90, 7, 90);
+  color: rgb(231, 197, 240);
+  height: 35px;
+  width: 140px;
+  font-size: 19px;
+  font-family: serif;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.inputBox{
+  background-color: rgb(90, 7, 90);
+  color: rgb(231, 197, 240);
+  height: 32px;
+}
+
+.messageBox{
+  background-color: rgb(90, 7, 90);
+  color: rgb(231, 197, 240);
+}
+
+.displayInParent{
+  grid-column: 2;
+}
