@@ -14,33 +14,23 @@ body{
 
 .links{
   padding: 2%;
-}
-
-.homeLink{
- padding: 1%;
- font-size: 22px;
- background-color: rgb(90, 7, 90);
- text-align: center;
+  text-align: center;
 }
 
 .homeL{
+  grid-column: 2;
+  grid-row: 1;
   color: rgb(231, 197, 240);
-  
-}
-
-.aboutMeLink{
   padding: 1%;
   font-size: 22px;
   background-color: rgb(90, 7, 90);
   text-align: center;
-  margin-bottom: 3%;
 }
 
 .aboutMeL{
   color: rgb(231, 197, 240);
-}
-
-.projectsLink{
+  grid-column: 1;
+  grid-row: 2;
   padding: 1%;
   font-size: 22px;
   background-color: rgb(90, 7, 90);
@@ -50,17 +40,23 @@ body{
 
 .projectsL{
   color: rgb(231, 197, 240);
-}
-
-.contactLink{
+  grid-column:2;
+  grid-row: 2;
   padding: 1%;
   font-size: 22px;
   background-color: rgb(90, 7, 90);
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .contactL{
   color: rgb(231, 197, 240);
+  grid-column: 3;
+  grid-row: 2;
+  padding: 1%;
+  font-size: 22px;
+  background-color: rgb(90, 7, 90);
+  text-align: center;
 }
 
 .welcome{
@@ -72,23 +68,60 @@ body{
 
 /* ********************************************** */
 /* About Me Page */
-.image{
-  width: 80%;
-}
 
 .aboutMeContainer{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.imageMe{
+  margin-top: 10%;
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.imageSize{
+  width: 100%;
 }
 
 .aboutMeText{
-  grid-column: 2;
+  font-size: 25px;
+  grid-column: 2/4;
+  grid-row: 1/3;
+  margin-left: 5%;
+  margin-top: 15%;
 }
 
 .logo{
-  grid-column: 2;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.logoSize{
+  width: 35%;
 }
 
 .resume{
-  grid-column: 2;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 10%;
+  
 }
+
+.resumeLink{
+  font-size: 20px;
+}
+
+/* ************************************************ */
+/* Projects Page */
+
+
+
+/* ************************************************ */
+/* Contact Page */
