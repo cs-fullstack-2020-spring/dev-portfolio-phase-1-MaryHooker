@@ -124,33 +124,65 @@ body{
 .projectsContainer{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(5, 1fr);
-}
-
-.languageLogos{
-grid-column: 1/4;
-grid-row: 1;
-display: inline;
+grid-template-rows: repeat(4, 1fr);
 }
 
 .htmlLogo{
-width: 8%;
+width: 90%;
 padding-right: 2%;
 }
 
+.html{
+  grid-column: 1;
+  grid-row: 2;
+}
+
 .cssLogo{
-  width: 8%;
+  width: 90%;
   padding-right: 2%;
+}
+
+.css{
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .jsLogo{
-  width: 8%;
+  width: 90%;
   padding-right: 2%;
 }
 
+.js{
+  grid-column: 3;
+  grid-row: 2;
+}
+
 .reactLogo{
-  width: 8%;
+  width: 20%;
   padding-right: 2%;
+}
+
+.react{
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.project1{
+  grid-column: 1;
+  grid-row: 3/6;
+  text-align: center;
+}
+
+.project2{
+  grid-column: 2;
+  grid-row: 3/6;
+  text-align: center;
+}
+
+.project3{
+  grid-column: 3;
+  grid-row: 3/6;
+  text-align: center;
 }
 
 /* ************************************************ */
