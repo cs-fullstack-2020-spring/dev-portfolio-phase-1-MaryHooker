@@ -121,7 +121,37 @@ body{
 /* ************************************************ */
 /* Projects Page */
 
+.projectsContainer{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+}
 
+.languageLogos{
+grid-column: 1/4;
+grid-row: 1;
+display: inline;
+}
+
+.htmlLogo{
+width: 8%;
+padding-right: 2%;
+}
+
+.cssLogo{
+  width: 8%;
+  padding-right: 2%;
+}
+
+.jsLogo{
+  width: 8%;
+  padding-right: 2%;
+}
+
+.reactLogo{
+  width: 8%;
+  padding-right: 2%;
+}
 
 /* ************************************************ */
 /* Contact Page */
