@@ -1,8 +1,77 @@
+
+/* Opening Page */
+.openingContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+} 
+
 body{
-  background-color: pink;
-  color: purple;
+  background-color: rgb(231, 197, 240);
+  color:rgb(90, 7, 90);
+  font-family: serif;
 }
 
+.links{
+  padding: 2%;
+}
+
+.homeLink{
+ padding: 1%;
+ font-size: 22px;
+ background-color: rgb(90, 7, 90);
+ text-align: center;
+}
+
+.homeL{
+  color: rgb(231, 197, 240);
+  
+}
+
+.aboutMeLink{
+  padding: 1%;
+  font-size: 22px;
+  background-color: rgb(90, 7, 90);
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.aboutMeL{
+  color: rgb(231, 197, 240);
+}
+
+.projectsLink{
+  padding: 1%;
+  font-size: 22px;
+  background-color: rgb(90, 7, 90);
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.projectsL{
+  color: rgb(231, 197, 240);
+}
+
+.contactLink{
+  padding: 1%;
+  font-size: 22px;
+  background-color: rgb(90, 7, 90);
+  text-align: center;
+}
+
+.contactL{
+  color: rgb(231, 197, 240);
+}
+
+.welcome{
+  grid-column: 1/4;
+  grid-row: 3/6;
+  font-size: 20vh;
+  text-align: center;
+}
+
+/* ********************************************** */
+/* About Me Page */
 .image{
   width: 80%;
 }

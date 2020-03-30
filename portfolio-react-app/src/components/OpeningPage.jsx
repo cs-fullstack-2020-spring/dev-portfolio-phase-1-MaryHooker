@@ -11,12 +11,23 @@ class OpeningPage extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='links'>
                 <Router>
-                    <Link to="/">Home</Link>
-                    <Link to="/aboutMe">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <div className='homeLink'>
+                        <Link to="/" className='homeL'>Home</Link>
+                    </div>
+                    <div>
+                        <h1 className='welcome'>Welcome</h1>
+                    </div>
+                    <div className='aboutMeLink'>
+                        <Link to="/aboutMe" className='aboutMeL'>About Me</Link>
+                    </div>
+                    <div className='projectsLink'>
+                        <Link to="/projects" className='projectsL'>Projects</Link>
+                    </div>
+                    <div className='contactLink'>
+                        <Link to="/contact" className='contactL'>Contact</Link>
+                    </div>
                     <Route path="/aboutMe">
                         <AboutMe />
                     </Route>
@@ -27,7 +38,7 @@ class OpeningPage extends Component {
                         <Contact />
                     </Route>
                 </Router>
-                <h1>Welcome</h1>
+
             </div>
         );
     }
