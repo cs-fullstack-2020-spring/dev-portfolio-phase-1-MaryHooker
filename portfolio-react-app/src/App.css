@@ -2,3 +2,24 @@ body{
   background-color: pink;
   color: purple;
 }
+
+.image{
+  width: 80%;
+}
+
+.aboutMeContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.aboutMeText{
+  grid-column: 2;
+}
+
+.logo{
+  grid-column: 2;
+}
+
+.resume{
+  grid-column: 2;
+}
