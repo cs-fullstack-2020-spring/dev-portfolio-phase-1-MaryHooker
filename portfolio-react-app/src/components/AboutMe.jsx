@@ -24,7 +24,7 @@ class AboutMe extends Component {
                 </div>
                 <div className='resume'>
                     <Router>
-                        <Link to='/resume' className='resumeLink'>Resume</Link>
+                        <Link to='/resume' className='resumeLink'>My Resume</Link>
                         <Route path='/resume'>
                             <Resume />
                         </Route>
