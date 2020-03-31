@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Resume from './Resume';
 import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
-// import Image from '/home/student/Downloads/image0 (5).jpeg';
 
 class AboutMe extends Component {
     constructor(props) {
@@ -10,6 +9,8 @@ class AboutMe extends Component {
     }
     
     render() {
+        
+
         return (
             <div className='aboutMeContainer'>
                 <div className='imageMe'>
@@ -25,9 +26,11 @@ class AboutMe extends Component {
                     <Router>
                         <Link to='/resume' className='resumeLink'>Resume</Link>
                         <Route path='/resume'>
-                            <Resume/>
+                            <Resume />
                         </Route>
                     </Router>
+                    {/* <a href="file:///home/student/Pictures/resume.html">Resume</a>
+                    <link rel="stylesheet" href="file:///home/student/Pictures/resume.html"/> */}
                 </div>
             </div>
         );

@@ -13,21 +13,38 @@ class OpeningPage extends Component {
         }
     }
 
+    hideWelcome = (event) =>{
+        let tagDisplay= document.querySelector('#display')
+        //sanity
+        console.log(tagDisplay.innerText)
+
+    
+          if(event.target.name==='aboutMe'){
+            tagDisplay.innerText='';
+        } else if(event.target.name==='projects'){
+            tagDisplay.innerText='';
+        } else if(event.target.name==='contact'){
+            tagDisplay.innerText='';
+        } else if(event.target.name==='homeL'){
+            tagDisplay.innerText='Welcome';
+        }
+    }
+
     render() {
         return (
             <div className='links'>
                 <Router>
                     
-                        <Link to="/" className='homeL'>Home</Link>
+                        <Link to="/" name='homeL' className='homeL' onClick={this.hideWelcome}>Home</Link>
                     
                     
-                        <Link to="/aboutMe" className='aboutMeL'>About Me</Link>
+                        <Link to="/aboutMe" name='aboutMe' className='aboutMeL' onClick={this.hideWelcome}>About Me</Link>
                     
                    
-                        <Link to="/projects" className='projectsL'>Projects</Link>
+                        <Link to="/projects" name='projects' className='projectsL' onClick={this.hideWelcome}>Projects</Link>
                    
                     
-                        <Link to="/contact" className='contactL'>Contact</Link>
+                        <Link to="/contact" name='contact' className='contactL' onClick={this.hideWelcome}>Contact</Link>
                     
                     <Route path="/aboutMe">
                         <AboutMe />
@@ -40,7 +57,8 @@ class OpeningPage extends Component {
                     </Route>
                 </Router>
                 <div>
-                    <h1 className='welcome'>Welcome</h1>
+                    {this.tagDisplay}
+                    <h1 id='display' className='welcome'>Welcome</h1>
                 </div>
             </div>
         );
