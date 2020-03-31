@@ -28,7 +28,7 @@ class Projects extends Component {
                     <br/>
                     <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='projectLinks'>Check It Out</a>
 
-                    <p className='textDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
+                    <p className='dreamFavoritesDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
                 </div>
                 <div className='project2'>
                     <h2>Zodiac App</h2>
@@ -36,7 +36,7 @@ class Projects extends Component {
                     <br/>
                     <a href="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" className='projectLinks'>Check It Out</a>
 
-                    <p className='textDescription'>This react application provides the user with selective information about their own zodiac sign using images as links</p>
+                    <p className='zodiacDescription'>This react application provides the user with selective information about their own zodiac sign using images as links</p>
                 </div>
                 <div className='project3'>
                     <h2>Favorites App</h2>
@@ -44,7 +44,7 @@ class Projects extends Component {
                     <br/>
                     <a href="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" className='projectLinks'>Check It Out</a>
                    
-                    <p className='textDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conidtional rendering</p>
+                    <p className='dreamFavoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conidtional rendering</p>
                    
                 </div>
 
