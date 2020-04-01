@@ -125,7 +125,10 @@ body{
   background-color: rgb(90, 7, 90);
   padding: 1%;
   color: pink;
-  
+}
+
+.resumeDisplay{
+  width: 100%;
 }
 
 /* ************************************************ */
@@ -191,13 +194,13 @@ body{
 }
 
 .dreamFavoritesDescription{
-  width: 105%;
-  margin-left: 5%;
+  width: 98%;
+  margin-left: 3%;
 }
 
 .zodiacDescription{
   width: 85%;
-  margin-left: 12%;
+  margin-left: 8%;
 }
 
 .zodiacImage{
@@ -212,6 +215,7 @@ body{
 
 .projectLinks{
   color: red;
+  font-weight: bold;
 }
 
 .project1{
