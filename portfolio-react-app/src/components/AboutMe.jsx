@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Resume from './Resume';
 import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class AboutMe extends Component {
     constructor(props) {
@@ -33,7 +35,7 @@ class AboutMe extends Component {
                     </Router>
                    
                 </div>
-                
+
             </div>
         );
     }
