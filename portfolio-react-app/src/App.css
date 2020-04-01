@@ -85,7 +85,7 @@ body{
 }
 
 .imageSize{
-  width: 100%;
+  width: 85%;
 }
 
 .aboutMeText{
@@ -234,6 +234,17 @@ body{
 /* ************************************************ */
 /* Contact Page */
 
+.formSpace{
+  margin-top: 2%;
+}
+
+.contactForm{
+  background-color: rgb(90, 7, 90);
+  border: 8px solid rgb(111, 12, 168);
+  border-radius: 2%;
+}
+
+/* 
 .contactContainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -286,4 +297,4 @@ body{
 
 .displayInParent{
   grid-column: 2;
-}
+} */

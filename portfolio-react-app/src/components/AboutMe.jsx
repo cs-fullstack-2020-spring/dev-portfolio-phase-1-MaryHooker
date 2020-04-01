@@ -14,7 +14,8 @@ class AboutMe extends Component {
         return (
             <div className='aboutMeContainer'>
                 <div className='imageMe'>
-                    <img src='https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX38348134.jpg' alt="avatar" className='imageSize'/>
+                    {/* <img src='https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX38348134.jpg' alt="avatar" className='imageSize'/> */}
+                    <img src="./image0 (7).jpeg" alt="image" className='imageSize'/>
                 </div>
                 <div className='aboutMeText'>
                     <p>Hi! My name is Mary Hooker and I'm a full stack software developer.  I'm most interested in front-end web development but I'm open to all positions and push for the best in everything I do. My education started with CodeCrew Code School and I intend to further my education throughout my career.</p>
@@ -32,6 +33,7 @@ class AboutMe extends Component {
                     {/* <a href="file:///home/student/Pictures/resume.html">Resume</a>
                     <link rel="stylesheet" href="file:///home/student/Pictures/resume.html"/> */}
                 </div>
+                
             </div>
         );
     }
