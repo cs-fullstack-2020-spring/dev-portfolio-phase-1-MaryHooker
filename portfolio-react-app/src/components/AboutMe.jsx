@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Resume from './Resume';
-import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
+// import Resume from './Resume';
+// import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
 
 class AboutMe extends Component {
     constructor(props) {
@@ -24,14 +24,14 @@ class AboutMe extends Component {
                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4971/s300/code-school-logo-3-3-.png" alt="logo"  className='logoSize'/>
                 </div>
                 <div className='resume'>
-                    <Router>
+                    <a href="./Resume.html">Resume</a>
+                    {/* <Router>
                         <Link to='/resume' className='resumeLink'>My Resume</Link>
                         <Route path='/resume'>
                             <Resume />
                         </Route>
                     </Router>
-                    {/* <a href="file:///home/student/Pictures/resume.html">Resume</a>
-                    <link rel="stylesheet" href="file:///home/student/Pictures/resume.html"/> */}
+                    */}
                 </div>
                 
             </div>
