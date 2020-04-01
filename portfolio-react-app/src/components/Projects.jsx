@@ -23,28 +23,25 @@ class Projects extends Component {
                 </div>
 
                 <div className='project1'>
-                    <h3>Dream Journal App</h3>
+                    <h4 className='bold'>Dream Journal App</h4>
+                    <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='projectLinks'>Check It Out</a>
                     <img src="./dreamApp.png" alt="dream joural" className='dreamImage'/>
                     <br/>
-                    <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='projectLinks'>Check It Out</a>
-
                     <p className='dreamFavoritesDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
                 </div>
                 <div className='project2'>
-                    <h3>Zodiac App</h3>
+                    <h4 className='bold'>Zodiac App</h4>
+                    <a href="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" className='projectLinks'>Check It Out</a>
                     <img src="./zodiacApp.png" alt="zodiacImage" className='zodiacImage'/>
                     <br/>
-                    <a href="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" className='projectLinks'>Check It Out</a>
-
                     <p className='zodiacDescription'>This react application provides the user with selective information about their own zodiac sign using images as links</p>
                 </div>
                 <div className='project3'>
-                    <h3>Favorites App</h3>
-                    <img src="./favoritesApp.png" alt="favoritesImage" className='favoritesImage'/>
-                    <br/>
+                    <h4 className='bold'>Favorites App</h4>
                     <a href="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" className='projectLinks'>Check It Out</a>
-                   
-                    <p className='dreamFavoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conidtional rendering</p>
+                    <img src="./favoritesApp.png" alt="favoritesImage" className='favoritesImage'/>
+                    <br/>        
+                    <p className='dreamFavoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conditional rendering</p>
                    
                 </div>
 
