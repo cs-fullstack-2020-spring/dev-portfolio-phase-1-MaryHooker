@@ -8,7 +8,7 @@ class Resume extends Component {
     render() { 
         return ( 
             <div>
-                <embed src="./MCHookerResume.pdf" width="100%" height="600px"/>
+                <embed src="./maryresume2020.pdf" width="100%" height="600px"/>
             </div>
          );
     }
