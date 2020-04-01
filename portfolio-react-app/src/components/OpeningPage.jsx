@@ -33,6 +33,7 @@ class OpeningPage extends Component {
     render() {
         return (
             <div className='links'>
+
                 <Router>
                     
                         <Link to="/" name='homeL' className='homeL' onClick={this.hideWelcome}>Home</Link>

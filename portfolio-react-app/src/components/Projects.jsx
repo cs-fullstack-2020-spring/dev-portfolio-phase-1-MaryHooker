@@ -23,7 +23,7 @@ class Projects extends Component {
                 </div>
 
                 <div className='project1'>
-                    <h2>Dream Journal App</h2>
+                    <h3>Dream Journal App</h3>
                     <img src="./dreamApp.png" alt="dream joural" className='dreamImage'/>
                     <br/>
                     <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='projectLinks'>Check It Out</a>
@@ -31,7 +31,7 @@ class Projects extends Component {
                     <p className='dreamFavoritesDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
                 </div>
                 <div className='project2'>
-                    <h2>Zodiac App</h2>
+                    <h3>Zodiac App</h3>
                     <img src="./zodiacApp.png" alt="zodiacImage" className='zodiacImage'/>
                     <br/>
                     <a href="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" className='projectLinks'>Check It Out</a>
@@ -39,7 +39,7 @@ class Projects extends Component {
                     <p className='zodiacDescription'>This react application provides the user with selective information about their own zodiac sign using images as links</p>
                 </div>
                 <div className='project3'>
-                    <h2>Favorites App</h2>
+                    <h3>Favorites App</h3>
                     <img src="./favoritesApp.png" alt="favoritesImage" className='favoritesImage'/>
                     <br/>
                     <a href="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" className='projectLinks'>Check It Out</a>
