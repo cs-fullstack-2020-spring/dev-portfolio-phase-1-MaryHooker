@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Resume from './Resume';
-import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
-import OpeningPage from './OpeningPage';
+// import Resume from './Resume';
+// import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
+// import OpeningPage from './OpeningPage';
 
 class AboutMe extends Component {
     constructor(props) {
@@ -27,19 +27,15 @@ class AboutMe extends Component {
                     <img src="/codeCrewLogo3.png" alt="logo" />
                 </div>
 
-                <div className='resume'>
+                {/* <Router className='resumeP'>
+                    <Link to='/Resume.jsx' className='resumeLink'>Resume</Link>
+                    <Route path='/Resume.jsx'>
+                        <Resume />
+                    </Route>
+                </Router>
+ */}
 
-                    <Router>
-                        <Link to='/Resume.jsx' className='resumeLink'>Resume</Link>
-                        <Route path='/Resume.jsx'>
-                            <Resume/>
-                        </Route>
-                    </Router>
-            
 
-                    {/* <div className='resume'> */}
-
-                </div>
 
             </div >
         );

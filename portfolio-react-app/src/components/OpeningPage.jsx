@@ -3,6 +3,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import Resume from './Resume';
 
 
 class OpeningPage extends Component {
@@ -25,6 +26,8 @@ class OpeningPage extends Component {
             tagDisplay.innerText='';
         } else if(event.target.name==='contact'){
             tagDisplay.innerText='';
+        } else if(event.target.name==='resume'){
+            tagDisplay.innerText='';
         } else if(event.target.name==='homeL'){
             tagDisplay.innerText='Welcome';
         }
@@ -46,6 +49,8 @@ class OpeningPage extends Component {
                    
                     
                         <Link to="/contact" name='contact' className='contactL' onClick={this.hideWelcome}>Contact</Link>
+
+                        <Link to="/resume" name='resume' className='resumeL' onClick={this.hideWelcome}>Resume</Link>
                     
                     <Route path="/aboutMe">
                         <AboutMe />
@@ -54,7 +59,10 @@ class OpeningPage extends Component {
                         <Projects />
                     </Route>
                     <Route path="/contact">
-                        <Contact updateArray={this.updateArray}/>
+                        <Contact/>
+                    </Route>
+                    <Route path="/resume">
+                        <Resume/>
                     </Route>
                 </Router>
                 <div>

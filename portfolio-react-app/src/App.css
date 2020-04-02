@@ -1,4 +1,5 @@
 body{
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg);
   background-color: rgb(202, 161, 212);
   color:rgb(90, 7, 90);
   font-family: serif;
@@ -40,13 +41,14 @@ body{
 
 .aboutMeL{
   color: rgb(231, 197, 240);
+  background-color: rgb(136, 30, 136);
   grid-column: 1;
   grid-row: 2;
   padding: 12px;
   margin-left: 2%;
   margin-right: 2%;
   font-size: 24px;
-  background-color: rgb(136, 30, 136);
+ 
   text-align: center;
   margin-bottom: 3%;
   border: solid 6px rgb(90, 7, 90);
@@ -93,6 +95,34 @@ body{
   background-color: rgb(223, 110, 208);
 }
 
+.resumeL{
+  color: rgb(231, 197, 240);
+  grid-column: 3;
+  grid-row: 2;
+  padding: 12px;
+  font-size: 24px;
+  background-color: rgb(136, 30, 136);
+  text-align: center;
+  border: solid 6px rgb(90, 7, 90);
+  border-radius: 12%;
+  margin-left: 4%;
+}
+
+.resumeL:hover{
+  background-color: rgb(223, 110, 208);
+}
+
+.resumeComp{
+  width: 720px;
+  border: solid 15px rgb(90, 7, 90);
+  border-radius: 5%;
+}
+
+.resumePosition{
+  margin-top: 3%;
+}
+
+
 .welcome{
   grid-column: 1/4;
   grid-row: 3/6;
@@ -107,7 +137,7 @@ body{
 .aboutMeContainer{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 50% 50% 50% 50%;
   height: 54vh;
   width: 100%;
 }
@@ -132,40 +162,10 @@ body{
 }
 
 .logo{
-  margin-right: 25%;
-  grid-column: 3;
-  margin-top: 25%;
-}
-
-.resume{
+  margin-left: 70%;
   grid-column: 2;
-  padding-left: 30%;
-}
-
-.resumeLink{
-  font-size: 26px;
-  background-color: rgb(136, 30, 136);
-  padding: 1%;
-  color: rgb(231, 197, 240);
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 11%;
-  margin-left: 15%;
-}
-
-.resumeLink:hover{
-  background-color: rgb(223, 110, 208);
-}
-
-.resumeComp{
-  width: 720px;
-  border: solid 15px rgb(90, 7, 90);
-  border-radius: 5%;
-  
-}
-
-.resumePosition{
-  margin-top: 5%;
-  
+  grid-row: 2;
+  margin-top: 25%;
 }
 
 /* ************************************************ */
@@ -228,18 +228,33 @@ body{
   width: 125%;
   margin-left: 15%;
   font-size: 17px;
+  background-color: rgb(231, 197, 240);
+  border: 5px solid rgb(90, 7, 90);
+  border-radius: 5%;
+  padding: 1%;
+  margin-top: 4px;
 }
 
 .favoritesDescription{
   width: 95%;
   margin-left: 6%;
   font-size: 17px;
+  background-color: rgb(231, 197, 240);
+  border: 5px solid rgb(90, 7, 90);
+  border-radius: 5%;
+  padding: 1%;
+  margin-top: 4px;
 }
 
 .zodiacDescription{
   width: 86%;
   margin-left: 11%;
   font-size: 17px;
+  background-color: rgb(231, 197, 240);
+  border: 5px solid rgb(90, 7, 90);
+  border-radius: 5%;
+  padding: 1%;
+  margin-top: 4px;
 }
 
 .dreamImage{
@@ -261,14 +276,16 @@ body{
 }
 
 .projectLinks{
-  color: rgb(182, 12, 12);
+  background-color: rgb(231, 197, 240);
+  color: rgb(47, 109, 6);
   font-weight: bold;
   font-size: 18px;
 }
 
 .dreamProjectLink{
   margin-left: 50%;
-  color: rgb(182, 12, 12);
+  background-color: rgb(231, 197, 240);
+  color: rgb(47, 109, 6);
   font-weight: bold;
   font-size: 18px;
 }
