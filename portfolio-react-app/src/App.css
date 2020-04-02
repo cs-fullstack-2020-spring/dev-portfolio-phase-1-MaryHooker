@@ -4,7 +4,6 @@ body{
   color:rgb(90, 7, 90);
   font-family: serif;
   width: 100%;
- 
 }
 
 /* Opening Page */
@@ -13,7 +12,6 @@ body{
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   width: 100%;
-
 } 
 
 .links{
@@ -48,7 +46,6 @@ body{
   margin-left: 2%;
   margin-right: 2%;
   font-size: 24px;
- 
   text-align: center;
   margin-bottom: 3%;
   border: solid 6px rgb(90, 7, 90);
@@ -121,7 +118,6 @@ body{
 .resumePosition{
   margin-top: 3%;
 }
-
 
 .welcome{
   grid-column: 1/4;
@@ -225,8 +221,8 @@ body{
 }
 
 .dreamDescription{
-  width: 125%;
-  margin-left: 15%;
+  width: 138%;
+  margin-left: 8%;
   font-size: 17px;
   background-color: rgb(231, 197, 240);
   border: 5px solid rgb(90, 7, 90);
@@ -247,8 +243,8 @@ body{
 }
 
 .zodiacDescription{
-  width: 86%;
-  margin-left: 11%;
+  width: 98%;
+  margin-left: 5%;
   font-size: 17px;
   background-color: rgb(231, 197, 240);
   border: 5px solid rgb(90, 7, 90);

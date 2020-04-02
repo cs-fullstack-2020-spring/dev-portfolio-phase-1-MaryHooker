@@ -27,7 +27,7 @@ class Projects extends Component {
                     <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='dreamProjectLink'>Check It Out</a>
                     <img src="./dream2.png" alt="dream joural" className='dreamImage'/>
                     <br/>
-                    <p className='dreamDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
+                    <p className='dreamDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form</p>
                 </div>
                 <div className='project2'>
                     <h4 className='bold'>Zodiac App</h4>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     <a href="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" className='projectLinks'>Check It Out</a>
                     <img src="./favorites2.png" alt="favoritesImage" className='favoritesImage'/>
                     <br/>        
-                    <p className='favoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conditional rendering</p>
+                    <p className='favoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links</p>
                    
                 </div>
 
