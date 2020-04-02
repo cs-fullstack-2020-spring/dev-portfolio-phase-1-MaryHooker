@@ -8,8 +8,8 @@ class Resume extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <embed src="./maryresume2020.pdf" width="100%" height="600px"/>
+            <div className='resumePosition'>
+                <embed src="./maryresume2020.pdf" width="100%" height="600px" className='resumeComp'/>
             </div>
          );
     }
