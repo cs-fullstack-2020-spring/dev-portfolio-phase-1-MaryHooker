@@ -46,7 +46,7 @@ class AboutMe extends Component {
                     <p>Hi! My name is Mary Hooker and I'm a full stack software developer.  I'm most interested in front-end web development but I'm open to all positions and push for the best in everything I do. My education started with CodeCrew Code School and I intend to further my education throughout my career.</p>
                 </div>
                 <div className='logo'>
-                    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4971/s300/code-school-logo-3-3-.png" alt="logo" className='logoSize' />
+                    <img src="/codeCrewLogo3.png" alt="logo" className='logoSize' />
                 </div>
 
             </div>
