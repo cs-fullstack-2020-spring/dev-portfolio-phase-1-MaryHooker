@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-// import {BrowserRouter as router, link,route} from 'react-router-dom';
+// import {BrowserRouter as link,route} from 'react-router-dom';
 
 class Resume extends Component {
     constructor(props) {
@@ -8,7 +8,7 @@ class Resume extends Component {
     }
     render() { 
         return ( 
-            <div className='resumeDisplay'>
+            <div>
                 <embed src="./maryresume2020.pdf" width="100%" height="600px"/>
             </div>
          );

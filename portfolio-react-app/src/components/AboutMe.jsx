@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import Resume from './Resume';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Image from 'react-bootstrap/Image';
-
+import {BrowserRouter as Switch,Route} from 'react-router-dom';
+import OpeningPage from './OpeningPage';
 
 class AboutMe extends Component {
     constructor(props) {
@@ -18,29 +14,33 @@ class AboutMe extends Component {
 
         return (
             <div className='aboutMeContainer'>
+                <div>
+                    <BrowserRouter>
+                        <Switch>
+                            <Route exact path="/" component={OpeningPage} />
+                            <Route path="/resume" component={Resume} />
+                        </Switch>
+                    </BrowserRouter>
 
-                <div className='resume'>
+                    {/* <div className='resume'> */}
 
-                    <Router>
-                        <Link to='/resume' className='resumeLink'>My Resume</Link>
-                        <Route path='/resume'>
-                            <Resume />
+
+                    {/* <Link to="DeveloperResFINALReactNot.pdf" download>Resume</Link>
+                                <Link to="/aboutme">About Me</Link>
+                                <Link to="/projects">Projects</Link>
+                                <Link to="/contact">Contact</Link> */}
+
+                    {/* <Router>
+                            <Link to='/maryresume2020.pdf' className='resumeLink'>My Resume</Link>
+                            <Route path='/resume' download>
+                            <Resume className='resumeDisplay'/>
                         </Route>
-                    </Router>
+                        </Router> */}
 
                 </div>
 
                 <div className='imageMe'>
                     <img src="/me3.gif" alt="me" className='imageSize' />
-                    {/* <Container>
-                        <Row>
-                            
-                            <Col xs={6} md={4}>
-                                <Image src="./me.jpeg" roundedCircle className='imageSize'/>
-                            </Col>
-                            
-                        </Row>
-                    </Container> */}
                 </div>
                 <div className='aboutMeText'>
                     <p>Hi! My name is Mary Hooker and I'm a full stack software developer.  I'm most interested in front-end web development but I'm open to all positions and push for the best in everything I do. My education started with CodeCrew Code School and I intend to further my education throughout my career.</p>
@@ -49,7 +49,7 @@ class AboutMe extends Component {
                     <img src="/codeCrewLogo3.png" alt="logo" className='logoSize' />
                 </div>
 
-            </div>
+            </div >
         );
     }
 }
