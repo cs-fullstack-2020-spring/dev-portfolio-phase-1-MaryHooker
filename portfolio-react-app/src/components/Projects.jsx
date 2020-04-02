@@ -10,24 +10,24 @@ class Projects extends Component {
             <div className='projectsContainer'>
 
                 <div className='html'>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="html" className='htmlLogo' />
+                    <img src="/html5.png" alt="html" className='htmlLogo' />
                 </div>
                 <div className='css'>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png" alt="css" className='cssLogo' />
+                    <img src="/css.png" alt="css" className='cssLogo' />
                 </div>
                 <div className='js'>
-                    <img src="https://pluspng.com/img-png/logo-javascript-png-java-script-js-logo-format-ai-javascript-logo-vector-png-213.png" alt="js" className='jsLogo' />
+                    <img src="/js.png" alt="js" className='jsLogo' />
                 </div>
                 <div className='react'>
-                    <img src="https://toppng.com/public/uploads/thumbnail/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994bz4gmmu3qd.png" alt="react" className='reactLogo' />
+                    <img src="/react2.png" alt="react" className='reactLogo' />
                 </div>
 
                 <div className='project1'>
-                    <h4 className='bold'>Dream Journal App</h4>
-                    <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='projectLinks'>Check It Out</a>
+                    <h4 className='dreamTitle'>Dream Journal App</h4>
+                    <a href="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" className='dreamProjectLink'>Check It Out</a>
                     <img src="./dreamApp.png" alt="dream joural" className='dreamImage'/>
                     <br/>
-                    <p className='dreamFavoritesDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
+                    <p className='dreamDescription'>This react application gives the user a chance to record everything they would need to remember about their dreams using a form field and a map function</p>
                 </div>
                 <div className='project2'>
                     <h4 className='bold'>Zodiac App</h4>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     <a href="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" className='projectLinks'>Check It Out</a>
                     <img src="./favoritesApp.png" alt="favoritesImage" className='favoritesImage'/>
                     <br/>        
-                    <p className='dreamFavoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conditional rendering</p>
+                    <p className='favoritesDescription'>This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links and conditional rendering</p>
                    
                 </div>
 

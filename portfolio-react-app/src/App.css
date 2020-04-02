@@ -16,7 +16,7 @@ body{
 } 
 
 .links{
-  padding: 2%;
+  padding: 20px;
   text-align: center;
   width: 100%;
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .homeL:hover{
-  background-color: goldenrod;
+  background-color: rgb(223, 110, 208);
 }
 
 .aboutMeL{
@@ -54,7 +54,7 @@ body{
 }
 
 .aboutMeL:hover{
-  background-color: goldenrod;
+  background-color: rgb(223, 110, 208);
 }
 
 .projectsL{
@@ -73,7 +73,7 @@ body{
 }
 
 .projectsL:hover{
-  background-color: goldenrod;
+  background-color: rgb(223, 110, 208);
 }
 
 .contactL{
@@ -90,7 +90,7 @@ body{
 }
 
 .contactL:hover{
-  background-color: goldenrod;
+  background-color: rgb(223, 110, 208);
 }
 
 .welcome{
@@ -113,15 +113,15 @@ body{
 }
 
 .imageMe{
-  margin-top: 5%;
+  margin-top: 12%;
   grid-column: 1;
   grid-row: 1/3;
 }
 
 .imageSize{
-  width: 340%;
-  margin-left: 30%;
+  margin-left: 14%;
   border: 10px solid rgb(90, 7, 90);
+  border-radius: 15%;
 }
 
 .aboutMeText{
@@ -163,6 +163,10 @@ body{
   border-radius: 11%;
 }
 
+.resumeLink:hover{
+  background-color: rgb(223, 110, 208);
+}
+
 .resumeDisplay{
   width: 100%;
 }
@@ -173,7 +177,7 @@ body{
 .projectsContainer{
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   height: 54vh;
   width: 100%;
 }
@@ -191,7 +195,6 @@ body{
 
 .cssLogo{
   width: 52%;
- 
 }
 
 .css{
@@ -214,8 +217,7 @@ body{
 
 .reactLogo{
   margin-top: 13%;
-  width: 54%;
-  background-color: rgb(90, 7, 90);
+  width: 65%;
 }
 
 .react{
@@ -225,32 +227,38 @@ body{
   padding-top: 25%;
 }
 
-.dreamImage{
-  width: 102%;
-  border: 6px solid rgb(90, 7, 90);
-  border-radius: 5%;
+.dreamDescription{
+  width: 125%;
+  margin-left: 15%;
+  font-size: 17px;
 }
 
-.dreamFavoritesDescription{
-  width: 99%;
-  margin-left: 3%;
+.favoritesDescription{
+  width: 95%;
+  margin-left: 6%;
   font-size: 17px;
 }
 
 .zodiacDescription{
   width: 86%;
-  margin-left: 8%;
+  margin-left: 11%;
   font-size: 17px;
 }
 
-.zodiacImage{
-  width: 93%;
+.dreamImage{
+  width: 421px;
   border: 6px solid rgb(90, 7, 90);
   border-radius: 5%;
 }
 
+.zodiacImage{
+  width: 390px;
+  border: 6px solid rgb(90, 7, 90);
+  border-radius: 5%; 
+}
+
 .favoritesImage{
-  width: 92%;
+  width: 380px;
   border: 6px solid rgb(90, 7, 90);
   border-radius: 5%;
 }
@@ -261,26 +269,44 @@ body{
   font-size: 18px;
 }
 
+.dreamProjectLink{
+  margin-left: 50%;
+  color: rgb(182, 12, 12);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .bold{
   font-weight: bold;
 }
 
+.dreamTitle{
+  grid-column: 1/4;
+  margin-left: 27%;
+  font-weight: bold;
+  width: 100%;
+}
+
 .project1{
-  grid-column: 2/5;
-  grid-row: 6;
-  margin-top: 15%;
+  grid-column: 1/4;
+  grid-row: 5;
+  margin-left: 25%;
+  margin-top: 40%;
 }
 
 .project2{
-  grid-column: 6/9;
-  grid-row: 6;
-  margin-top: 15%;
+  grid-column: 5/9;
+  grid-row: 5;
+  margin-top: 6%;
+  margin-left: 25%;
+  margin-top: 30%;
 }
 
 .project3{
   grid-column: 10/13;
-  grid-row: 6;
-  margin-top: 15%;
+  grid-row: 5;
+  margin-top: 8%;
+  margin-top: 40%;
 }
 
 /* ************************************************ */
@@ -293,64 +319,9 @@ body{
 }
 
 .contactForm{
-  background-color: rgb(90, 7, 90);
-  border: 8px solid rgb(111, 12, 168);
+  background-color: rgb(136, 30, 136);
+  border: 8px solid rgb(90, 7, 90);
   border-radius: 2%;
-  width: 65%;
+  width: 50%;
   height: 89vh;
 }
-
-/* 
-.contactContainer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.nameInput{
-  grid-column: 2;
-  padding: 5%;
-  margin-top: 5%;
-  font-size: 25px;
-}
-
-.emailInput{
-  grid-column: 2; 
-  padding: 5%;
-  font-size: 25px;
-}
-
-.messageInput{
-  grid-column: 2;
-  padding: 5%;
-  font-size: 25px;
-}
-
-.buttonPlace{
-  grid-column: 2;
-}
-
-.submitButton{
-  background-color: rgb(90, 7, 90);
-  color: rgb(231, 197, 240);
-  height: 35px;
-  width: 140px;
-  font-size: 19px;
-  font-family: serif;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.inputBox{
-  background-color: rgb(90, 7, 90);
-  color: rgb(231, 197, 240);
-  height: 32px;
-}
-
-.messageBox{
-  background-color: rgb(90, 7, 90);
-  color: rgb(231, 197, 240);
-}
-
-.displayInParent{
-  grid-column: 2;
-} */
