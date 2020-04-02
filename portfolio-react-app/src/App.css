@@ -272,16 +272,22 @@ body{
 }
 
 .projectLinks{
-  background-color: rgb(231, 197, 240);
-  color: rgb(47, 109, 6);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
+  border: 2px solid rgb(90, 7, 90);
+  border-radius: 10%;
+  padding: 3px;
   font-weight: bold;
   font-size: 18px;
 }
 
 .dreamProjectLink{
   margin-left: 50%;
-  background-color: rgb(231, 197, 240);
-  color: rgb(47, 109, 6);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
+  border: 2px solid rgb(90, 7, 90);
+  padding: 3px;
+  border-radius: 10%;
   font-weight: bold;
   font-size: 18px;
 }
