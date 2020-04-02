@@ -34,7 +34,8 @@ body{
 }
 
 .homeL:hover{
-  background-color: rgb(223, 110, 208);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
 }
 
 .aboutMeL{
@@ -53,7 +54,8 @@ body{
 }
 
 .aboutMeL:hover{
-  background-color: rgb(223, 110, 208);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
 }
 
 .projectsL{
@@ -72,7 +74,8 @@ body{
 }
 
 .projectsL:hover{
-  background-color: rgb(223, 110, 208);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
 }
 
 .contactL{
@@ -89,7 +92,8 @@ body{
 }
 
 .contactL:hover{
-  background-color: rgb(223, 110, 208);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
 }
 
 .resumeL{
@@ -103,20 +107,23 @@ body{
   border: solid 6px rgb(90, 7, 90);
   border-radius: 12%;
   margin-left: 4%;
+
 }
 
 .resumeL:hover{
-  background-color: rgb(223, 110, 208);
+  background-color: rgb(47, 109, 6);
+  color: rgb(231, 197, 240);
 }
 
 .resumeComp{
-  width: 720px;
+  width: 800px;
+  height: 630px;
   border: solid 15px rgb(90, 7, 90);
   border-radius: 5%;
 }
 
 .resumePosition{
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .welcome{
@@ -125,6 +132,7 @@ body{
   font-size: 20vh;
   text-align: center;
   margin-top: 15%;
+  
 }
 
 /* ********************************************** */
@@ -338,6 +346,6 @@ body{
   background-color: rgb(136, 30, 136);
   border: 8px solid rgb(90, 7, 90);
   border-radius: 2%;
-  width: 50%;
-  height: 89vh;
+  width: 53%;
+  height: 90vh;
 }

@@ -4,7 +4,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Resume from './Resume';
-
+// import CSSTransitionGroup from 'react-transition-group';
 
 class OpeningPage extends Component {
     constructor(props) {
@@ -36,7 +36,7 @@ class OpeningPage extends Component {
     render() {
         return (
             <div className='links'>
-
+                {/* <CSSTransitionGroup transitionName='group'> */}
                 <Router>
                     
                         <Link to="/" name='homeL' className='homeL' onClick={this.hideWelcome}>Home</Link>
@@ -65,6 +65,7 @@ class OpeningPage extends Component {
                         <Resume/>
                     </Route>
                 </Router>
+                {/* </CSSTransitionGroup> */}
                 <div>
                     {this.tagDisplay}
                     <h1 id='display' className='welcome'>Welcome</h1>
