@@ -11,7 +11,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Animated  animationIn="pulse" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                <Animated  animationIn="swing"  animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
 
                     <div className='projectsContainer'>
 
@@ -65,7 +65,7 @@ class Projects extends Component {
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Favorites App</Card.Title>
                                     <Card.Text>
-                                        This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links
+                                        This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well
                                       </Card.Text>
                                       <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app">
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
