@@ -21,11 +21,11 @@ body{
 }
 
 .nav-link{
-  color: rgb(231, 197, 240);
-  border: 5px solid rgb(47, 109, 6);
-  border-radius: 15%;
+  color: rgb(228, 205, 235);
+  border: 5px solid rgb(90, 7, 90);
+  border-radius: 10%;
   background-color: rgb(90, 7, 90);
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .nav-link:hover{
@@ -56,7 +56,7 @@ body{
   grid-row: 3/6;
   font-size: 20vh;
   text-align: center;
-  margin-top: 11%; 
+  margin-top: 10%; 
 }
 
 /* ********************************************** */
