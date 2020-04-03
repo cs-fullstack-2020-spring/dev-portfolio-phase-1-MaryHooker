@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Animated } from "react-animated-css";
 import { Card } from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
-// import {Link} from 'react-bootstrap';
 
 class Projects extends Component {
     constructor(props) {

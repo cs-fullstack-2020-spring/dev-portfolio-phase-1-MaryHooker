@@ -291,12 +291,14 @@ body{
   margin-top: 1%;
   height: 55vh;
   width: 100%;
+  
 }
 
 .contactForm{
   background-color: rgb(136, 30, 136);
   border: 8px solid rgb(90, 7, 90);
   border-radius: 2%;
-  width: 40%;
+  width: 39%;
   height: 90vh;
+  margin-right: 17px;
 }

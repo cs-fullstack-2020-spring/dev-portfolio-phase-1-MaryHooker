@@ -5,7 +5,6 @@ import Contact from './Contact';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Resume from './Resume';
 import { Animated } from "react-animated-css";
-// import CSSTransitionGroup from 'react-transition-group';
 
 class OpeningPage extends Component {
     constructor(props) {

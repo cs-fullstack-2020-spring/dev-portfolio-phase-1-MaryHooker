@@ -1,18 +1,22 @@
-import React,{Component} from 'react';
-// import {BrowserRouter as link,route} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Animated } from "react-animated-css";
 
 class Resume extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = {}
     }
-    render() { 
-        return ( 
+    render() {
+        return (
             <div className='resumePosition'>
-                <embed src="./maryresume2020.pdf" width="420px" className='resumeComp'/>
+
+                <Animated animationIn="rotateIn" animationOut="flipOutY" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                    <img src="/public/images/demo.jpg" />
+                    <embed src="./maryresume2020.pdf" width="420px" className='resumeComp' />
+                </Animated>
             </div>
-         );
+        );
     }
 }
- 
+
 export default Resume;
