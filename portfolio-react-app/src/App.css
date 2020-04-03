@@ -191,7 +191,7 @@ body{
   grid-column: 6;
   grid-row: 4;
   padding: 5%;
-  padding-top: 62%;
+  padding-top: 53%;
 }
 
 .cssLogo{
@@ -202,7 +202,7 @@ body{
   grid-column: 7;
   grid-row: 4;
   padding: 5%;
-  padding-top: 62%;
+  padding-top: 51%;
 }
 
 .jsLogo{
@@ -213,12 +213,11 @@ body{
   grid-column: 8;
   grid-row: 4;
   padding: 5%;
-  padding-top: 62%;
+  padding-top: 50%;
 }
 
 .reactLogo{
-  margin-top: 13%;
-  width: 65%;
+  width: 75%;
 }
 
 .react{
@@ -228,110 +227,61 @@ body{
   padding-top: 25%;
 }
 
-.dreamDescription{
-  width: 138%;
-  margin-left: 8%;
-  font-size: 17px;
-  background-color: rgb(231, 197, 240);
-  border: 5px solid rgb(90, 7, 90);
-  border-radius: 5%;
-  padding: 1%;
-  margin-top: 4px;
-}
-
-.favoritesDescription{
-  width: 95%;
-  margin-left: 6%;
-  font-size: 17px;
-  background-color: rgb(231, 197, 240);
-  border: 5px solid rgb(90, 7, 90);
-  border-radius: 5%;
-  padding: 1%;
-  margin-top: 4px;
-}
-
-.zodiacDescription{
-  width: 98%;
-  margin-left: 5%;
-  font-size: 17px;
-  background-color: rgb(231, 197, 240);
-  border: 5px solid rgb(90, 7, 90);
-  border-radius: 5%;
-  padding: 1%;
-  margin-top: 4px;
-}
-
 .dreamImage{
   width: 412px;
-  
+  height: 185px;
 }
 
 .zodiacImage{
   width: 390px;
+  height: 185px;
 }
 
 .favoritesImage{
   width: 390px;
-  
+  height: 185px;
+}
+
+.projectBody{
+  background-color: rgb(231, 197, 240);
 }
 
 .projectLinks{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-  border: 2px solid rgb(90, 7, 90);
-  border-radius: 10%;
-  padding: 3px;
+  padding-bottom: 3px;
   font-weight: bold;
   font-size: 18px;
-}
-
-.dreamProjectLink{
-  margin-left: 50%;
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-  border: 2px solid rgb(90, 7, 90);
-  padding: 3px;
-  border-radius: 10%;
-  font-weight: bold;
-  font-size: 18px;
+  color:rgb(47, 109, 6);
 }
 
 .bold{
   font-weight: bold;
 }
 
-.dreamTitle{
-  grid-column: 1/4;
-  margin-left: 27%;
-  font-weight: bold;
-  width: 100%;
+.cardBorder{
+  border: 10px solid rgb(90, 7, 90);
+  border-radius: 5%;
 }
 
 .project1{
   grid-column: 1/4;
   grid-row: 5;
   margin-left: 25%;
-  margin-top: 40%;
- 
+  margin-top: 33%;
 }
 
-.cardBorder{
-  border: 10px solid rgb(90, 7, 90);
-  border-radius: 5%;
-}
 .project2{
   grid-column: 5/9;
   grid-row: 5;
   margin-top: 6%;
   margin-left: 25%;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 .project3{
   grid-column: 10/13;
   grid-row: 5;
   margin-top: 8%;
-  margin-top: 40%;
+  margin-top: 33%;
 }
 
 /* ************************************************ */

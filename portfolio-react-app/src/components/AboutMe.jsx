@@ -30,17 +30,7 @@ class AboutMe extends Component {
                 <div className='logo'>
                     <img src="/codeCrewLogo3.png" alt="logo" />
                 </div>
-
-                {/* <Router className='resumeP'>
-                    <Link to='/Resume.jsx' className='resumeLink'>Resume</Link>
-                    <Route path='/Resume.jsx'>
-                        <Resume />
-                    </Route>
-                </Router>
- */}
-
-
-
+                
             </div >
         );
     }
