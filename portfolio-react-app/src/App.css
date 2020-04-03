@@ -107,7 +107,6 @@ body{
   border: solid 6px rgb(90, 7, 90);
   border-radius: 12%;
   margin-left: 4%;
-
 }
 
 .resumeL:hover{
@@ -116,14 +115,15 @@ body{
 }
 
 .resumeComp{
-  width: 800px;
-  height: 630px;
-  border: solid 15px rgb(90, 7, 90);
+  width: 520px;
+  height: 650px;
+  border: solid 10px rgb(90, 7, 90);
   border-radius: 5%;
+  margin-right: 1%;
 }
 
 .resumePosition{
-  margin-top: 2%;
+  margin-top: 19px;
 }
 
 .welcome{
@@ -131,8 +131,7 @@ body{
   grid-row: 3/6;
   font-size: 20vh;
   text-align: center;
-  margin-top: 15%;
-  
+  margin-top: 15%; 
 }
 
 /* ********************************************** */
@@ -297,6 +296,6 @@ body{
   background-color: rgb(136, 30, 136);
   border: 8px solid rgb(90, 7, 90);
   border-radius: 2%;
-  width: 53%;
+  width: 40%;
   height: 90vh;
 }

@@ -63,7 +63,7 @@ class OpeningPage extends Component {
                         <Contact />
                     </Route>
                     <Route path="/resume">
-                        <Resume />
+                        <Resume/>
                     </Route>
                 </Router>
                 {/* </CSSTransitionGroup> */}
