@@ -262,21 +262,17 @@ body{
 }
 
 .dreamImage{
-  width: 421px;
-  border: 6px solid rgb(90, 7, 90);
-  border-radius: 5%;
+  width: 412px;
+  
 }
 
 .zodiacImage{
   width: 390px;
-  border: 6px solid rgb(90, 7, 90);
-  border-radius: 5%; 
 }
 
 .favoritesImage{
-  width: 380px;
-  border: 6px solid rgb(90, 7, 90);
-  border-radius: 5%;
+  width: 390px;
+  
 }
 
 .projectLinks{
@@ -316,8 +312,13 @@ body{
   grid-row: 5;
   margin-left: 25%;
   margin-top: 40%;
+ 
 }
 
+.cardBorder{
+  border: 10px solid rgb(90, 7, 90);
+  border-radius: 5%;
+}
 .project2{
   grid-column: 5/9;
   grid-row: 5;
