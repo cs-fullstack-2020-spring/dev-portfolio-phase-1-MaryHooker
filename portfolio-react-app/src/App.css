@@ -10,9 +10,28 @@ body{
 .openingContainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   width: 100%;
 } 
+
+.nav-item{
+  grid-column: 1/4;
+  margin-right: 90px;
+  margin-left: 100px;
+
+}
+
+.nav-link{
+  color: rgb(231, 197, 240);
+  border: 5px solid rgb(47, 109, 6);
+  border-radius: 15%;
+  background-color: rgb(90, 7, 90);
+  font-size: 22px;
+}
+
+.nav-link:hover{
+  background-color: rgb(231, 197, 240);
+  color: rgb(90, 7, 90);
+}
 
 .links{
   padding: 20px;
@@ -20,98 +39,8 @@ body{
   width: 100%;
 }
 
-.homeL{
-  grid-column: 2;
-  grid-row: 1;
-  color: rgb(231, 197, 240);
-  padding: 12px;
-  font-size: 24px;
-  background-color: rgb(136, 30, 136);
-  text-align: center;
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 16%;
-  margin-right: 2%;
-}
-
-.homeL:hover{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-}
-
-.aboutMeL{
-  color: rgb(231, 197, 240);
-  background-color: rgb(136, 30, 136);
-  grid-column: 1;
-  grid-row: 2;
-  padding: 12px;
-  margin-left: 2%;
-  margin-right: 2%;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 3%;
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 12%;
-}
-
-.aboutMeL:hover{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-}
-
-.projectsL{
-  color: rgb(231, 197, 240);
-  grid-column:2;
-  grid-row: 2;
-  padding: 12px;
-  font-size: 24px;
-  background-color: rgb(136, 30, 136);
-  text-align: center;
-  margin-bottom: 3%;
-  margin-left: 2%;
-  margin-right: 2%;
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 13%; 
-}
-
-.projectsL:hover{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-}
-
-.contactL{
-  color: rgb(231, 197, 240);
-  grid-column: 3;
-  grid-row: 2;
-  padding: 12px;
-  font-size: 24px;
-  background-color: rgb(136, 30, 136);
-  text-align: center;
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 12%;
-  margin-left: 2%;
-}
-
-.contactL:hover{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
-}
-
-.resumeL{
-  color: rgb(231, 197, 240);
-  grid-column: 3;
-  grid-row: 2;
-  padding: 12px;
-  font-size: 24px;
-  background-color: rgb(136, 30, 136);
-  text-align: center;
-  border: solid 6px rgb(90, 7, 90);
-  border-radius: 12%;
-  margin-left: 4%;
-}
-
-.resumeL:hover{
-  background-color: rgb(47, 109, 6);
-  color: rgb(231, 197, 240);
+.resumePosition{
+  margin-top: 2px;
 }
 
 .resumeComp{
@@ -119,11 +48,7 @@ body{
   height: 650px;
   border: solid 10px rgb(90, 7, 90);
   border-radius: 5%;
-  margin-right: 1%;
-}
-
-.resumePosition{
-  margin-top: 19px;
+  margin-right: 2%;
 }
 
 .welcome{
@@ -131,7 +56,7 @@ body{
   grid-row: 3/6;
   font-size: 20vh;
   text-align: center;
-  margin-top: 15%; 
+  margin-top: 10%; 
 }
 
 /* ********************************************** */
@@ -146,8 +71,8 @@ body{
 }
 
 .imageMe{
-  margin-top: 12%;
   grid-column: 1;
+  margin-top: 8%;
 }
 
 .imageSize{
@@ -160,7 +85,7 @@ body{
   font-size: 25px;
   grid-column: 2/4;
   margin-left: 9%;
-  margin-top: 15%;
+  margin-top: 12%;
   width: 80%;
 }
 
@@ -168,7 +93,7 @@ body{
   margin-left: 70%;
   grid-column: 2;
   grid-row: 2;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 /* ************************************************ */
@@ -190,7 +115,7 @@ body{
   grid-column: 6;
   grid-row: 4;
   padding: 5%;
-  padding-top: 53%;
+  padding-top: 25%;
 }
 
 .cssLogo{
@@ -201,7 +126,7 @@ body{
   grid-column: 7;
   grid-row: 4;
   padding: 5%;
-  padding-top: 51%;
+  padding-top: 25%;
 }
 
 .jsLogo{
@@ -212,18 +137,18 @@ body{
   grid-column: 8;
   grid-row: 4;
   padding: 5%;
-  padding-top: 50%;
+  padding-top: 25%;
 }
 
 .reactLogo{
-  width: 75%;
+  width: 70%;
 }
 
 .react{
   grid-column: 7;
   grid-row: 5;
   padding: 5%;
-  padding-top: 25%;
+  padding-top: 15%;
 }
 
 .dreamImage{
@@ -265,7 +190,7 @@ body{
 .project1{
   grid-column: 1/4;
   grid-row: 5;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 33%;
 }
 
@@ -273,7 +198,7 @@ body{
   grid-column: 5/9;
   grid-row: 5;
   margin-top: 6%;
-  margin-left: 25%;
+  margin-left: 22%;
   margin-top: 25%;
 }
 
@@ -288,17 +213,16 @@ body{
 /* Contact Page */
 
 .formSpace{
-  margin-top: 1%;
   height: 55vh;
   width: 100%;
-  
 }
 
 .contactForm{
   background-color: rgb(136, 30, 136);
   border: 8px solid rgb(90, 7, 90);
   border-radius: 2%;
-  width: 39%;
-  height: 90vh;
+  width: 38%;
+  height: 89vh;
   margin-right: 17px;
+  margin-top: 2px;
 }
