@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Animated } from "react-animated-css";
 import { Card } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 // import {Link} from 'react-bootstrap';
 
 class Projects extends Component {
@@ -11,7 +12,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Animated animationIn="bounceIn" animationOut="rotateOutDownRight" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                <Animated  animationIn="pulse" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
 
                     <div className='projectsContainer'>
 
@@ -36,7 +37,9 @@ class Projects extends Component {
                                     <Card.Text className='dreamDescription'>
                                         This react application gives the user a chance to record everything they would need to remember about their dreams using a form
                                       </Card.Text>
-                                    <a variant="primary" href='https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker' className='projectLinks'>Check It Out!</a>
+                                      <form action="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker">
+                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
+                                      </form>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -49,20 +52,26 @@ class Projects extends Component {
                                     <Card.Text>
                                         This react application provides the user with selective information about their own zodiac sign using images as links
                                       </Card.Text>
-                                    <a variant="primary" href='https://github.com/MaryHooker/Projects/tree/master/zodiac-app' className='projectLinks'>Check It Out!</a>
+                                      <form action="https://github.com/MaryHooker/Projects/tree/master/zodiac-app">
+                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
+                                      </form>
+                                    {/* <a variant="primary" href='https://github.com/MaryHooker/Projects/tree/master/zodiac-app' className='projectLinks'>Check It Out!</a> */}
                                 </Card.Body>
                             </Card>
                         </div>
 
                         <div className='project3'>
-                            <Card style={{ width: '410px', height: '388px' }} className='cardBorder'>
+                            <Card style={{ width: '410px', height: '390px' }} className='cardBorder'>
                                 <Card.Img variant="top" src="./favorites2.png" className='favoritesImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Favorites App</Card.Title>
                                     <Card.Text>
                                         This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well using links
                                       </Card.Text>
-                                    <a variant="primary" href='https://github.com/MaryHooker/Projects/tree/master/favorite-things-app' className='projectLinks'>Check It Out!</a>
+                                      <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app">
+                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
+                                      </form>
+                                    
                                 </Card.Body>
                             </Card>
                         </div>
