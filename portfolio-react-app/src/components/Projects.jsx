@@ -36,7 +36,7 @@ class Projects extends Component {
                                     <Card.Text className='dreamDescription'>
                                         This react application gives the user a chance to record everything they would need to remember about their dreams using a form
                                       </Card.Text>
-                                      <form action="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker">
+                                      <form action="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                 </Card.Body>
@@ -51,7 +51,7 @@ class Projects extends Component {
                                     <Card.Text>
                                         This react application provides the user with selective information about their own zodiac sign using images as links
                                       </Card.Text>
-                                      <form action="https://github.com/MaryHooker/Projects/tree/master/zodiac-app">
+                                      <form action="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                     {/* <a variant="primary" href='https://github.com/MaryHooker/Projects/tree/master/zodiac-app' className='projectLinks'>Check It Out!</a> */}
@@ -67,7 +67,7 @@ class Projects extends Component {
                                     <Card.Text>
                                         This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well
                                       </Card.Text>
-                                      <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app">
+                                      <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                     

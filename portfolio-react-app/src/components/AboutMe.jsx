@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import Resume from './Resume';
-// import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
-// import OpeningPage from './OpeningPage';
 import { Animated } from "react-animated-css";
 
 
