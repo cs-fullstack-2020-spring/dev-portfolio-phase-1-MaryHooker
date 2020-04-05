@@ -10,7 +10,7 @@ class Resume extends Component {
         return (
             <div className='resumePosition'>
 
-                <Animated animationIn="rotateIn" animationOut="flipOutY" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                <Animated animationIn="fadeInUp" animationOut="flipOutY" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                     <img src="/public/images/demo.jpg" />
                     <embed src="./maryresume2020.pdf" width="420px" className='resumeComp' />
                 </Animated>

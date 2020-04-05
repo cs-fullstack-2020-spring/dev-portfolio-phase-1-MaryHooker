@@ -62,16 +62,17 @@ class OpeningPage extends Component {
                             </li>
 
                             <li className="nav-item">
+                                <Link className="nav-link" to="/resume" name='resume' onClick={this.hideWelcome}>
+                                    Resume
+                                </Link>
+                            </li>
+
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/contact" name='contact' onClick={this.hideWelcome}>
                                     Contact
                                 </Link>
                             </li>
 
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/resume" name='resume' onClick={this.hideWelcome}>
-                                    Resume
-                                </Link>
-                            </li>
                         </ul>
                         {/* Routes for Simple Grid and React Cards example */}
                         <Route path="/aboutMe">

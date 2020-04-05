@@ -11,7 +11,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Animated  animationIn="swing"  animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                <Animated  animationIn='fadeInRight'  animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
 
                     <div className='projectsContainer'>
 
