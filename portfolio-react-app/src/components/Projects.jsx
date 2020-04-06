@@ -65,7 +65,7 @@ class Projects extends Component {
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Favorites App</Card.Title>
                                     <Card.Text>
-                                        This react application tells the user of my own personal favorites in my chosen categories and asks for the users as well
+                                        This react application tells the user of my own personal favorites in chosen categories and asks for the users using a form
                                       </Card.Text>
                                       <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
