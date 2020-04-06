@@ -54,7 +54,6 @@ class Projects extends Component {
                                       <form action="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
-                                    {/* <a variant="primary" href='https://github.com/MaryHooker/Projects/tree/master/zodiac-app' className='projectLinks'>Check It Out!</a> */}
                                 </Card.Body>
                             </Card>
                         </div>
