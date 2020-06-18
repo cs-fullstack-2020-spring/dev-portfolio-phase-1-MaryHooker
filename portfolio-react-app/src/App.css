@@ -5,6 +5,12 @@ body{
   width: 100%;
 }
 
+.corbinTitle{
+  color: red;
+  font-weight: bold;
+  font-size: 52px;
+}
+
 /* Opening Page */
 .openingContainer{
   display: grid;

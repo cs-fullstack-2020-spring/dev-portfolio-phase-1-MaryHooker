@@ -10,7 +10,7 @@ class OpeningPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
+          
         }
     }
 
@@ -33,10 +33,13 @@ class OpeningPage extends Component {
         }
     }
 
+ 
+
     render() {
+
+  
         return (
             <div className='links'>
-
                 <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                     
                     <Router>
@@ -92,35 +95,6 @@ class OpeningPage extends Component {
                         </Route>
 
                     </Router>
-
-                    {/* <Router>
-
-                        <Link to="/" name='homeL' className='homeL' onClick={this.hideWelcome}>Home</Link>
-
-
-                        <Link to="/aboutMe" name='aboutMe' className='aboutMeL' onClick={this.hideWelcome}>About Me</Link>
-
-
-                        <Link to="/projects" name='projects' className='projectsL' onClick={this.hideWelcome}>Projects</Link>
-
-
-                        <Link to="/contact" name='contact' className='contactL' onClick={this.hideWelcome}>Contact</Link>
-
-                        <Link to="/resume" name='resume' className='resumeL' onClick={this.hideWelcome}>Resume</Link>
-
-                        <Route path="/aboutMe">
-                            <AboutMe />
-                        </Route>
-                        <Route path="/projects">
-                            <Projects />
-                        </Route>
-                        <Route path="/contact">
-                            <Contact />
-                        </Route>
-                        <Route path="/resume">
-                            <Resume />
-                        </Route>
-                    </Router> */}
                     
 
                     <div>
