@@ -30,13 +30,12 @@ class Projects extends Component {
 
                         <div className='project1'>
                             <Card style={{ width: '432px', height: '390px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./dream2.png" className='dreamImage' />
+                                <Card.Img variant="top" src="./Dreamer.png" className='dreamImage' />
                                 <Card.Body className='projectBody'>
-                                    <Card.Title className='bold'>Dream Journal App</Card.Title>
+                                    <Card.Title className='bold'>Dreamer</Card.Title>
                                     <Card.Text className='dreamDescription'>
-                                        This react application gives the user a chance to record everything they would need to remember about their dreams using a form
-                                      </Card.Text>
-                                      <form action="https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-practice-MaryHooker" target='_blank'>
+                                        This full-stack MERN application is for creating, viewing and learning about dreams that supports both company and customer activities.                                      </Card.Text>
+                                      <form action="https://github.com/MaryHooker/Passion-Project-2020.git" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                 </Card.Body>
@@ -60,13 +59,12 @@ class Projects extends Component {
 
                         <div className='project3'>
                             <Card style={{ width: '410px', height: '390px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./favorites2.png" className='favoritesImage' />
+                                <Card.Img variant="top" src="./TREX.png" className='favoritesImage' />
                                 <Card.Body className='projectBody'>
-                                    <Card.Title className='bold'>Favorites App</Card.Title>
+                                    <Card.Title className='bold'>TREX Logistics</Card.Title>
                                     <Card.Text>
-                                        This react application tells the user of my own personal favorites in chosen categories and asks for the users using a form
-                                      </Card.Text>
-                                      <form action="https://github.com/MaryHooker/Projects/tree/master/favorite-things-app" target='_blank'>
+                                        This is a full-stack MERN enterprise application for creating, managing, and monitoring shipments moving through our transportation network.                                       </Card.Text>
+                                      <form action="https://github.com/cs-fullstack-2020-spring/trex-1-team-bam.git" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                     
