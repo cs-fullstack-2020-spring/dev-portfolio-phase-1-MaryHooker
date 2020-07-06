@@ -1,14 +1,8 @@
 body{
   background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg);
-  color:rgb(90, 7, 90);
+  color:rgb(41, 3, 41);
   font-family: serif;
   width: 100%;
-}
-
-.corbinTitle{
-  color: red;
-  font-weight: bold;
-  font-size: 52px;
 }
 
 /* Opening Page */
@@ -27,15 +21,18 @@ body{
 
 .nav-link{
   color: rgb(228, 205, 235);
-  border: 5px solid rgb(90, 7, 90);
+  border: 1px solid rgb(41, 3, 41);
   border-radius: 10%;
-  background-color: rgb(90, 7, 90);
+  background-color: rgb(41, 3, 41);
   font-size: 23px;
 }
 
 .nav-link:hover{
-  background-color: rgb(231, 197, 240);
-  color: rgb(90, 7, 90);
+  /* background-color: rgba(122, 11, 122, 0.781);
+  color: rgb(228, 205, 235); */
+
+  background-color: rgb(231, 197, 240); 
+  color: rgb(41, 3, 41);
 }
 
 .links{
@@ -51,7 +48,7 @@ body{
 .resumeComp{
   width: 520px;
   height: 650px;
-  border: solid 12px rgb(90, 7, 90);
+  border: solid 12px rgb(41, 3, 41);
   border-radius: 5%;
   margin-right: 1%;
 }
@@ -59,9 +56,9 @@ body{
 .welcome{
   grid-column: 1/4;
   grid-row: 3/6;
-  font-size: 20vh;
+  font-size: 18vh;
   text-align: center;
-  margin-top: 10%; 
+  margin-top: 12%; 
 }
 
 /* ********************************************** */
@@ -82,7 +79,7 @@ body{
 
 .imageSize{
   margin-left: 14%;
-  border: 10px solid rgb(90, 7, 90);
+  border: 10px solid rgb(41, 3, 41);
   border-radius: 15%;
 }
 
@@ -188,7 +185,7 @@ body{
 }
 
 .cardBorder{
-  border: 10px solid rgb(90, 7, 90);
+  border: 10px solid rgb(41, 3, 41);
   border-radius: 5%;
 }
 
@@ -223,8 +220,8 @@ body{
 }
 
 .contactForm{
-  background-color: rgb(90, 7, 90);
-  border: 6px solid rgb(90, 7, 90);
+  background-color: rgb(41, 3, 41);
+  border: 6px solid rgb(41, 3, 41);
   border-radius: 2%;
   width: 38%;
   height: 88vh;
