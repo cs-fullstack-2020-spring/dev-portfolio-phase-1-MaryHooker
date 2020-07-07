@@ -1,0 +1,17 @@
+{
+  "main": "server/index.js",
+  "scripts": {
+    "build": "cd portfolio-react-app && npm run build",
+    "install-client": "cd portfolio-react-app && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "cd server && node index.js"
+  },
+  "engines": {
+    "npm": "6.14.5",
+    "node": "12.18.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
