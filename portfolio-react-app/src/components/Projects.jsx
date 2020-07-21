@@ -44,13 +44,13 @@ class Projects extends Component {
 
                         <div className='project2'>
                             <Card style={{ width: '410px', height: '390px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./zodiac2.png" className='zodiacImage' />
+                                <Card.Img variant="top" src="./dailyReflections.png" className='zodiacImage' />
                                 <Card.Body className='projectBody'>
-                                    <Card.Title className='bold'>Zodiac App</Card.Title>
+                                    <Card.Title className='bold'>Reflections Journal</Card.Title>
                                     <Card.Text>
-                                        This react application provides the user with selective information about their own zodiac sign using images as links
+                                        This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
                                       </Card.Text>
-                                      <form action="https://github.com/MaryHooker/Projects/tree/master/zodiac-app" target='_blank'>
+                                      <form action="https://github.com/cs-fullstack-2020-spring/reflections-journal-project-3-MaryHooker.git" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                 </Card.Body>
