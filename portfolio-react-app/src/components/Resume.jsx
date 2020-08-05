@@ -11,8 +11,8 @@ class Resume extends Component {
             <div className='resumePosition'>
 
                 <Animated animationIn="fadeInUp" animationOut="flipOutY" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                    <img src="/public/images/demo.jpg" />
-                    <embed src="./UpdatedResume.pdf" width="420px" className='resumeComp' />
+                    {/* <img src="/public/images/demo.jpg" /> */}
+                    <embed src="./resume.pdf" width="420px" className='resumeComp' />
                 </Animated>
             </div>
         );

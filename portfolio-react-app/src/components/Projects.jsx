@@ -50,7 +50,7 @@ class Projects extends Component {
                                     <Card.Text>
                                         This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
                                       </Card.Text>
-                                      <form action="https://github.com/cs-fullstack-2020-spring/reflections-journal-project-3-MaryHooker.git" target='_blank'>
+                                      <form action="https://reflections-journal.herokuapp.com/" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                 </Card.Body>
@@ -64,7 +64,7 @@ class Projects extends Component {
                                     <Card.Title className='bold'>TREX Logistics</Card.Title>
                                     <Card.Text>
                                         This is a full-stack MERN enterprise application for creating, managing, and monitoring shipments moving through our transportation network.                                       </Card.Text>
-                                      <form action="https://github.com/cs-fullstack-2020-spring/trex-1-team-bam.git" target='_blank'>
+                                      <form action="https://enigmatic-basin-72083.herokuapp.com/" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                     

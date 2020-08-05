@@ -184,10 +184,10 @@ body{
   font-weight: bold;
 }
 
-.cardBorder{
+/* .cardBorder{
   border: 10px solid rgb(41, 3, 41);
   border-radius: 5%;
-}
+} */
 
 .project1{
   grid-column: 1/4;
