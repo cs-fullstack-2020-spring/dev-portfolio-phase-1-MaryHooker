@@ -1,6 +1,6 @@
 body{
   background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg);
-  color:rgb(41, 3, 41);
+  color:rgb(24, 2, 24);
   font-family: serif;
   width: 100%;
 }
@@ -20,9 +20,9 @@ body{
 }
 
 .nav-link{
-  color: rgb(228, 205, 235);
-  border: 1px solid rgb(19, 1, 19);
-  border-radius: 10%;
+  color: rgb(233, 221, 236);
+  /* border: 2px solid rgb(19, 1, 19); */
+  border-radius: 5%;
   background-color: rgb(19, 1, 19);
   font-size: 23px;
 }
@@ -31,8 +31,8 @@ body{
   /* background-color: rgba(122, 11, 122, 0.781);
   color: rgb(228, 205, 235); */
 
-  background-color: rgb(231, 197, 240); 
-  color: rgb(41, 3, 41);
+  background-color: rgb(10, 24, 1); 
+  color: rgb(230, 219, 233);
 }
 
 .links{
@@ -42,15 +42,15 @@ body{
 }
 
 .resumePosition{
-  margin-top: 2px;
+  margin-top: 1%;
 }
 
 .resumeComp{
   width: 520px;
   height: 650px;
-  border: solid 12px rgb(41, 3, 41);
+  /* border: solid 2px rgb(41, 3, 41); */
   border-radius: 5%;
-  margin-right: 1%;
+  /* margin-right: 1%; */
 }
 
 .welcome{
@@ -110,7 +110,7 @@ body{
 }
 
 .htmlLogo{
-  width: 71%;
+  width: 60%;
 }
 
 .html{
@@ -121,7 +121,7 @@ body{
 }
 
 .cssLogo{
-  width: 52%;
+  width: 45%;
 }
 
 .css{
@@ -132,7 +132,7 @@ body{
 }
 
 .jsLogo{
-  width: 52%;
+  width: 45%;
 }
 
 .js{
@@ -169,15 +169,28 @@ body{
 }
 
 .projectBody{
-  background-color: rgb(231, 197, 240);
+  background-color: rgb(19, 1, 19);
+  color: rgb(235, 209, 235);
 }
 
 .projectLinks{
-  padding-bottom: 3px;
+  /* padding-bottom: 1%; */
+  /* margin-bottom: %; */
   font-weight: bold;
   font-size: 18px;
-  color:rgb(231, 197, 240);
-  background-color: rgb(47, 109, 6);
+  color:rgb(231, 213, 236);
+  background-color: rgb(23, 53, 3);
+  border: 1px solid rgb(23, 53, 3);
+}
+
+.projectLinks:hover{
+  /* padding-bottom: 1%; */
+  /* margin-bottom: %; */
+  font-weight: bold;
+  font-size: 18px;
+  color:rgb(231, 213, 236);
+  background-color: rgb(112, 23, 108);
+  border: 1px solid rgb(112, 23, 108);
 }
 
 .bold{
@@ -192,7 +205,7 @@ body{
 .project1{
   grid-column: 1/4;
   grid-row: 5;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-top: 20%;
 }
 
@@ -200,7 +213,7 @@ body{
   grid-column: 5/9;
   grid-row: 5;
   margin-top: 6%;
-  margin-left: 22%;
+  margin-left: 17%;
   margin-top: 25%;
 }
 
@@ -221,11 +234,11 @@ body{
 }
 
 .contactForm{
-  background-color: rgb(41, 3, 41);
-  border: 6px solid rgb(41, 3, 41);
+  background-color: rgb(22, 2, 22);
+  /* border: 6px solid rgb(22, 2, 22); */
   border-radius: 2%;
   width: 38%;
-  height: 88vh;
+  height: 86vh;
   margin-right: 17px;
-  margin-top: 3px;
+  margin-top: 1%;
 }

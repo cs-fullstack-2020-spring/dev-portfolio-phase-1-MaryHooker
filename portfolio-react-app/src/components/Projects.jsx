@@ -29,7 +29,7 @@ class Projects extends Component {
                         </div>
 
                         <div className='project1'>
-                            <Card style={{ width: '429px', height: '390px' }} className='cardBorder'>
+                            <Card style={{ width: '429px', height: '404px' }} className='cardBorder'>
                                 <Card.Img variant="top" src="./dreamer.png" className='dreamImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Dreamer</Card.Title>
@@ -43,22 +43,7 @@ class Projects extends Component {
                         </div>
 
                         <div className='project2'>
-                            <Card style={{ width: '429px', height: '390px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./Journal.png" className='journalImage' />
-                                <Card.Body className='projectBody'>
-                                    <Card.Title className='bold'>Reflections Journal</Card.Title>
-                                    <Card.Text>
-                                        This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
-                                      </Card.Text>
-                                      <form action="https://reflections-journal.herokuapp.com/" target='_blank'>
-                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
-                                      </form>
-                                </Card.Body>
-                            </Card>
-                        </div>
-
-                        <div className='project3'>
-                            <Card style={{ width: '429px', height: '394px' }} className='cardBorder'>
+                        <Card style={{ width: '429px', height: '394px' }} className='cardBorder'>
                                 <Card.Img variant="top" src="./Trex.png" className='trexImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>TREX Logistics</Card.Title>
@@ -68,6 +53,22 @@ class Projects extends Component {
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                     
+                                </Card.Body>
+                            </Card>
+                        </div>
+
+                        <div className='project3'>
+                            
+                            <Card style={{ width: '429px', height: '394px' }} className='cardBorder'>
+                                <Card.Img variant="top" src="./Journal.png" className='journalImage' />
+                                <Card.Body className='projectBody'>
+                                    <Card.Title className='bold'>Reflections Journal</Card.Title>
+                                    <Card.Text>
+                                        This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
+                                      </Card.Text>
+                                      <form action="https://reflections-journal.herokuapp.com/" target='_blank'>
+                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
+                                      </form>
                                 </Card.Body>
                             </Card>
                         </div>
