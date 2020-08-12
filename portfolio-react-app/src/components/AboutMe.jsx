@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import { Animated } from "react-animated-css";
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+
 
 
 class AboutMe extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-
-    render() {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
 
 
-        return (
-            <div>
+
+  render() {
+
+
+    return (
+      <div>
                 <Animated animationIn="slideInDown" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+
                     <div className='aboutMeContainer'>
 
 
@@ -33,9 +38,11 @@ class AboutMe extends Component {
 
                     </div>
                 </Animated>
+      
+                    
             </div >
-        );
-    }
+      );
+  }
 }
 
 export default AboutMe;

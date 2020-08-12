@@ -59,7 +59,7 @@ class Projects extends Component {
 
                         <div className='project3'>
                             
-                            <Card style={{ width: '429px', height: '394px' }} className='cardBorder'>
+                            <Card style={{ width: '429px', height: '417px' }} className='cardBorder'>
                                 <Card.Img variant="top" src="./Journal.png" className='journalImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Reflections Journal</Card.Title>

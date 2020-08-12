@@ -1,65 +1,63 @@
 body{
   background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg);
-  color:rgb(24, 2, 24);
+  color:rgb(38, 3, 39);
   font-family: sans-serif;
   width: 100%;
 }
 
 /* Opening Page */
-.openingContainer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-} 
 
-.nav-item{
-  grid-column: 1/4;
-  margin-right: 90px;
-  margin-left: 100px;
+.bg-transparent{
+  color: white;
+  font-size: 120%;
+}
 
+.variant-blue{
+  color: pink;
 }
 
 .nav-link{
-  color: rgb(233, 221, 236);
-  /* border: 2px solid rgb(19, 1, 19); */
-  border-radius: 5%;
-  background-color: rgb(19, 1, 19);
-  font-size: 23px;
+  color: white;
+  background-color: rgba(128, 0, 128, 0.432);
+  border-radius: 2%;
 }
 
 .nav-link:hover{
-  /* background-color: rgba(122, 11, 122, 0.781);
-  color: rgb(228, 205, 235); */
-
-  background-color: rgb(10, 24, 1); 
-  color: rgb(230, 219, 233);
+  color: white;
+  background-color: rgba(128, 0, 128, 0.795);
 }
 
-.links{
-  padding: 20px;
-  text-align: center;
+/* .mr-auto{
+  background-color: rgba(255, 255, 255, 0.514);;
+} */
+
+.homeL{
+  padding: 1%;
+  font-size: 120%;
+  font-weight: bold;
+} 
+/* .linkColor{
+  background-color: rgba(255, 255, 255, 0.514);
+} */
+
+/* .linkColor:hover{
+ background-color: rgba(128, 0, 128, 0.288);
+} */
+
+
+/* .openingContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
-}
+}  */
 
-.resumePosition{
-  margin-top: 1%;
-}
-
-.resumeComp{
-  width: 520px;
-  height: 650px;
-  /* border: solid 2px rgb(41, 3, 41); */
-  border-radius: 5%;
-  /* margin-right: 1%; */
-}
-
-.welcome{
+/* .welcome{
   grid-column: 1/4;
   grid-row: 3/6;
   font-size: 18vh;
   text-align: center;
   margin-top: 12%; 
-}
+} */
 
 /* ********************************************** */
 /* About Me Page */
@@ -67,8 +65,6 @@ body{
 .aboutMeContainer{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  /* grid-template-rows: repeat(4,1fr); */
-  /* height: 54vh; */
   width: 100%;
 }
 
@@ -88,14 +84,10 @@ body{
   grid-column: 2/4;
   margin-left: 9%;
   margin-top: 12%;
-  /* width: 80%; */
 }
 
 .logo{
-  /* margin-left: 68%; */
   grid-column: 2/4;
-  /* grid-row: 4; */
-  /* margin-top: 15%; */
 }
 
 /* ************************************************ */
@@ -155,17 +147,14 @@ body{
 
 .dreamImage{
   width: 425px;
-  /* height: 185px; */
 }
 
 .journalImage{
   width: 425px;
-  /* height: 185px; */
 }
 
 .trexImage{
   width: 425px;
-  /* height: 185px; */
 }
 
 .projectBody{
@@ -174,8 +163,6 @@ body{
 }
 
 .projectLinks{
-  /* padding-bottom: 1%; */
-  /* margin-bottom: %; */
   font-weight: bold;
   font-size: 18px;
   color:rgb(231, 213, 236);
@@ -184,8 +171,6 @@ body{
 }
 
 .projectLinks:hover{
-  /* padding-bottom: 1%; */
-  /* margin-bottom: %; */
   font-weight: bold;
   font-size: 18px;
   color:rgb(231, 213, 236);
@@ -239,6 +224,23 @@ body{
   border-radius: 2%;
   width: 38%;
   height: 86vh;
-  margin-right: 17px;
+  /* margin-right: 17px; */
   margin-top: 1%;
+  margin-left: 32%;
+}
+
+/* *********************************************** */
+/* Resume */
+
+.resumePosition{
+  margin-top: 1%;
+  margin-left: 35%;
+}
+
+.resumeComp{
+  /* width: 500%; */
+  /* height: 700%; */
+  /* border: solid 2px rgb(41, 3, 41); */
+  border-radius: 5%;
+  /* margin-right: 1%; */
 }
