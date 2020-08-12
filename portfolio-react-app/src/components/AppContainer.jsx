@@ -58,10 +58,10 @@ class AppContainer extends Component {
                         <Navbar bg='dark' variant='whatever' classname='navBar'>
     <Navbar.Brand name='homeL' className='homeL' onClick={this.hideWelcome}>Portfolio</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="/" name='aboutMe' onClick={this.hideWelcome} className='linkColor'>About Me</Nav.Link>
-      <Nav.Link href="/projects" name='projects' onClick={this.hideWelcome} className='linkColor'>Projects</Nav.Link>
-      <Nav.Link href="/resume" name='resume' onClick={this.hideWelcome} className='linkColor'>Resume</Nav.Link>
-      <Nav.Link href="/contact" name='contact' onClick={this.hideWelcome} className='linkColor'>Contact</Nav.Link>
+      <Nav.Link name='aboutMe' onClick={this.hideWelcome} className='linkColor'><Link to='/' className='linkColor'>About Me</Link></Nav.Link>
+      <Nav.Link name='projects' onClick={this.hideWelcome} className='linkColor'><Link to='/projects' className='linkColor'>Projects</Link></Nav.Link>
+      <Nav.Link name='resume' onClick={this.hideWelcome} className='linkColor'><Link to='/resume' className='linkColor'>Resume</Link></Nav.Link>
+      <Nav.Link name='contact' onClick={this.hideWelcome} className='linkColor'><Link to='/contact' className='linkColor'>Contact</Link></Nav.Link>
     </Nav>
   </Navbar>
  
