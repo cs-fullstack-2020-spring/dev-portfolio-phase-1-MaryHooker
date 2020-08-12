@@ -36,7 +36,7 @@ class Projects extends Component {
                                     <Card.Text className='dreamDescription'>
                                         This full-stack MERN application is for creating, viewing and learning about dreams that supports both company and customer activities.                                      </Card.Text>
                                       <a href="https://dreamers-dreams.herokuapp.com/" target='_blank'><Button type='submit' className='projectLinks'>Check It Out!</Button></a>
-                                      <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
+                                      <a href="https://github.com/MaryHooker/Passion-Project-2020.git" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -49,7 +49,7 @@ class Projects extends Component {
                                     <Card.Text>
                                         This is a full-stack MERN enterprise application for creating, managing, and monitoring shipments moving through our transportation network.                                       </Card.Text>
                                       <a href="https://enigmatic-basin-72083.herokuapp.com/" target='_blank'><Button className='projectLinks'>Check It Out!</Button></a>
-                                          <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
+                                          <a href="https://github.com/cs-fullstack-2020-spring/trex-1-team-bam.git" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
                                                                           
                                 </Card.Body>
                             </Card>
@@ -65,7 +65,7 @@ class Projects extends Component {
                                         This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
                                       </Card.Text>
                                       <a href="https://reflections-journal.herokuapp.com/" target='_blank'><Button type='submit' className='projectLinks'>Check It Out!</Button></a>
-                                      <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
+                                      <a href="https://github.com/cs-fullstack-2020-spring/reflections-journal-project-3-MaryHooker.git" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
                                 </Card.Body>
                             </Card>
                         </div>
