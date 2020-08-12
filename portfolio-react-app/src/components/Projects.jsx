@@ -35,7 +35,7 @@ class Projects extends Component {
                                     <Card.Title className='bold'>Dreamer</Card.Title>
                                     <Card.Text className='dreamDescription'>
                                         This full-stack MERN application is for creating, viewing and learning about dreams that supports both company and customer activities.                                      </Card.Text>
-                                      <form action="https://github.com/MaryHooker/Passion-Project-2020.git" target='_blank'>
+                                      <form action="https://dreamers-dreams.herokuapp.com/" target='_blank'>
                                       <Button type='submit' className='projectLinks'>Check It Out!</Button>
                                       </form>
                                 </Card.Body>
