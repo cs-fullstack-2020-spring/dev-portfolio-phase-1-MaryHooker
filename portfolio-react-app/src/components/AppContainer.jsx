@@ -65,9 +65,8 @@ class AppContainer extends Component {
   </Navbar>
   <Router>
                 { /* Routes for Simple Grid and React Cards example */ }
-                        <Route path="/aboutMe">
-                            <AboutMe />
-                        </Route>
+                        <Route path="/aboutMe" exact component={() => <AboutMe/>}/>
+                          
 
                         <Route path="/projects">
                             <Projects />

@@ -64,13 +64,15 @@ body{
 
 .aboutMeContainer{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(5,1fr);
+  /* grid-template-rows: repeat(3,1fr); */
   width: 100%;
+  margin-top: 4%;
 }
 
 .imageMe{
-  grid-column: 1;
-  margin-top: 14%;
+  grid-column: 1/3;
+  /* margin-top: 14%; */
 }
 
 .imageSize{
@@ -80,10 +82,10 @@ body{
 }
 
 .aboutMeText{
-  font-size: 150%;
-  grid-column: 2/4;
-  margin-left: 9%;
-  margin-top: 12%;
+  font-size: 3vh;
+  grid-column: 3/5;
+  /* grid-row: 1; */
+
 }
 
 .logo{
@@ -219,7 +221,7 @@ body{
 }
 
 .contactForm{
-  background-color: rgb(22, 2, 22);
+  /* background-color: rgb(22, 2, 22); */
   /* border: 6px solid rgb(22, 2, 22); */
   border-radius: 2%;
   width: 38%;
