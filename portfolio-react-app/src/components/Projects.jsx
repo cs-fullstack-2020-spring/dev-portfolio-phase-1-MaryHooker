@@ -15,7 +15,7 @@ class Projects extends Component {
 
                     <div className='projectsContainer'>
 
-                        <div className='html'>
+                        {/* <div className='html'>
                             <img src="/html5.png" alt="html" className='htmlLogo' />
                         </div>
                         <div className='css'>
@@ -26,49 +26,46 @@ class Projects extends Component {
                         </div>
                         <div className='react'>
                             <img src="/react2.png" alt="react" className='reactLogo' />
-                        </div>
+                        </div> */}
 
                         <div className='project1'>
-                            <Card style={{ width: '429px', height: '404px' }} className='cardBorder'>
+                            <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
                                 <Card.Img variant="top" src="./dreamer.png" className='dreamImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Dreamer</Card.Title>
                                     <Card.Text className='dreamDescription'>
                                         This full-stack MERN application is for creating, viewing and learning about dreams that supports both company and customer activities.                                      </Card.Text>
-                                      <form action="https://dreamers-dreams.herokuapp.com/" target='_blank'>
-                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
-                                      </form>
+                                      <a href="https://dreamers-dreams.herokuapp.com/" target='_blank'><Button type='submit' className='projectLinks'>Check It Out!</Button></a>
+                                      <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
                                 </Card.Body>
                             </Card>
                         </div>
 
                         <div className='project2'>
-                        <Card style={{ width: '429px', height: '394px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./Trex.png" className='trexImage' />
+                        <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
+                                <Card.Img variant="top" src="./trex3.png" className='trexImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>TREX Logistics</Card.Title>
                                     <Card.Text>
                                         This is a full-stack MERN enterprise application for creating, managing, and monitoring shipments moving through our transportation network.                                       </Card.Text>
-                                      <form action="https://enigmatic-basin-72083.herokuapp.com/" target='_blank'>
-                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
-                                      </form>
-                                    
+                                      <a href="https://enigmatic-basin-72083.herokuapp.com/" target='_blank'><Button className='projectLinks'>Check It Out!</Button></a>
+                                          <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
+                                                                          
                                 </Card.Body>
                             </Card>
                         </div>
 
                         <div className='project3'>
                             
-                            <Card style={{ width: '429px', height: '417px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./Journal.png" className='journalImage' />
+                            <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
+                                <Card.Img variant="top" src="./reflections2.png" className='journalImage' />
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Reflections Journal</Card.Title>
                                     <Card.Text>
                                         This full-stack MERN application provides user with the ability to record and save their daily progress/reflections.
                                       </Card.Text>
-                                      <form action="https://reflections-journal.herokuapp.com/" target='_blank'>
-                                      <Button type='submit' className='projectLinks'>Check It Out!</Button>
-                                      </form>
+                                      <a href="https://reflections-journal.herokuapp.com/" target='_blank'><Button type='submit' className='projectLinks'>Check It Out!</Button></a>
+                                      <a href="https://google.com" target='_blank'><Button className='githubLinks'>GitHub</Button></a>
                                 </Card.Body>
                             </Card>
                         </div>

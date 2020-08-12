@@ -52,20 +52,21 @@ class AppContainer extends Component {
     // }
     return (
       <div>
-
+                {/* <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}> */}
+                <Router>
 { /* Bootstrap Navigation Bar */ }
-                        <Navbar bg='transparent' variant='success' classname='navBar'>
-    <Navbar.Brand name='homeL' className='homeL' onClick={this.hideWelcome}>Mary Hooker Development</Navbar.Brand>
+                        <Navbar bg='dark' variant='whatever' classname='navBar'>
+    <Navbar.Brand name='homeL' className='homeL' onClick={this.hideWelcome}>Portfolio</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="/aboutMe" name='aboutMe' bg='light' variant='dark' onClick={this.hideWelcome} >About Me</Nav.Link>
+      <Nav.Link href="/" name='aboutMe' onClick={this.hideWelcome} className='linkColor'>About Me</Nav.Link>
       <Nav.Link href="/projects" name='projects' onClick={this.hideWelcome} className='linkColor'>Projects</Nav.Link>
       <Nav.Link href="/resume" name='resume' onClick={this.hideWelcome} className='linkColor'>Resume</Nav.Link>
       <Nav.Link href="/contact" name='contact' onClick={this.hideWelcome} className='linkColor'>Contact</Nav.Link>
     </Nav>
   </Navbar>
-  <Router>
+ 
                 { /* Routes for Simple Grid and React Cards example */ }
-                        <Route path="/aboutMe" exact component={() => <AboutMe/>}/>
+                        <Route path="/" exact component={() => <AboutMe/>}/>
                           
 
                         <Route path="/projects">
@@ -84,6 +85,8 @@ class AppContainer extends Component {
                 {/* <div>
                     {openingPage}
                 </div> */}
+                                {/* </Animated> */}
+
             </div>
       );
   }
