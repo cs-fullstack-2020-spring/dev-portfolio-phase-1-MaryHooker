@@ -69,17 +69,14 @@ class AppContainer extends Component {
                         <Route path="/" exact component={() => <AboutMe/>}/>
                           
 
-                        <Route path="/projects">
-                            <Projects />
-                        </Route>
+                        <Route path="/projects" exact component={() => <Projects/>}/>
+                     
 
-                        <Route path="/contact">
-                            <Contact />
-                        </Route>
+                        <Route path="/contact" exact component={() => <Contact/>}/>
+                        
 
-                        <Route path="/resume">
-                            <Resume />
-                        </Route>
+                        <Route path="/resume" exact component={() => <Resume/>}/>
+
 
                     </Router>
                 {/* <div>
