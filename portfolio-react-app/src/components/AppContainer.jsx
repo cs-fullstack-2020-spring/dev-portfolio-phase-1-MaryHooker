@@ -71,10 +71,10 @@ class AppContainer extends Component {
       <div class="collapse navbar-collapse" id="navbarSupportedContent-3">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-        <Link to='/'class="nav-link waves-effect waves-light">About Me</Link>
+        <Link to='/aboutMe'class="nav-link waves-effect waves-light">About Me</Link>
             </li>
           <li class="nav-item active">
-            <Link class="nav-link waves-effect waves-light" to='/Projects'>Projects
+            <Link class="nav-link waves-effect waves-light" to='/projects'>Projects
               <span class="sr-only">(current)</span>
             </Link>
             </li>
@@ -127,7 +127,7 @@ class AppContainer extends Component {
   {/* </Navbar> */}
  
                 { /* Routes for Simple Grid and React Cards example */ }
-                        <Route path="/" exact component={() => <AboutMe/>}/>
+                        <Route path="/aboutMe" exact component={() => <AboutMe/>}/>
                           
 
                         <Route path="/projects" exact component={() => <Projects/>}/>
