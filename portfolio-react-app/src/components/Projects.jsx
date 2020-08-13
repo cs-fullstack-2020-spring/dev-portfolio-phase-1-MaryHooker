@@ -15,18 +15,7 @@ class Projects extends Component {
 
                     <div className='projectsContainer'>
 
-                        {/* <div className='html'>
-                            <img src="/html5.png" alt="html" className='htmlLogo' />
-                        </div>
-                        <div className='css'>
-                            <img src="/css.png" alt="css" className='cssLogo' />
-                        </div>
-                        <div className='js'>
-                            <img src="/js.png" alt="js" className='jsLogo' />
-                        </div>
-                        <div className='react'>
-                            <img src="/react2.png" alt="react" className='reactLogo' />
-                        </div> */}
+                  
 
                         <div className='project1'>
                             <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>

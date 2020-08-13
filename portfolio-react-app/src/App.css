@@ -3,11 +3,11 @@ body{
   color:white;
   font-family: sans-serif;
   width: 100%;
-  background-color: rgba(44, 2, 44, 0.466);
+  background-color: rgb(22, 1, 22);
 }
 
 .bg {
-  background-image: url("/chris-ried-ieic5Tq8YMk-unsplash.jpg");
+  /* background-image: url("/anas-alshanti-feXpdV001o4-unsplash.jpg"); */
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,13 +75,21 @@ body{
   width: 100%;
 }  */
 
-/* .welcome{
-  grid-column: 1/4;
+.welcome{
+  /* grid-column: 1/4;
   grid-row: 3/6;
-  font-size: 18vh;
+  font-size: 250%; */
   text-align: center;
-  margin-top: 12%; 
-} */
+  margin: 1%;
+}
+
+.portfolioButton{
+text-align: center;
+}
+
+.credit{
+  text-align: left;
+}
 
 /* ********************************************** */
 /* About Me Page */
@@ -101,9 +109,9 @@ body{
 
 .imageSize{
   margin-left: 14%;
-  border: 8px solid rgb(51, 50, 50);
+  /* border: 4px solid rgb(21, 33, 75); */
   border-radius: 8%;
-  width: 135%;
+  width: 125%;
 }
 
 .aboutMeText{
@@ -111,11 +119,12 @@ body{
   grid-column: 4/6;
   /* grid-row: 1; */
   /* display: block; */
-
+  text-align: center;
+  margin-top: 1%;
 }
 
 .logo{
-  grid-column: 3/4;
+  text-align: center;
 }
 
 /* ************************************************ */
@@ -124,7 +133,8 @@ body{
 .projectsContainer{
   display: flex;
   flex-flow: row wrap;
-  margin: 6%;
+  margin: 3%;
+  text-align: center;
 
 }
 
@@ -185,26 +195,24 @@ body{
 } */
 
 .projectBody{
-  background-color: rgba(61, 6, 61, 0.877);
+  background-color: rgb(22, 1, 22);
   color: rgb(235, 209, 235);
-  
 }
 
 .projectLinks{
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(31, 29, 29);
-  border: 1px solid rgb(31, 29, 29);
-  /* border-radius: 8%; */
+  background-color: rgb(22, 1, 26);
+  border: 2px solid rgb(35, 21, 112);
 }
 
 .projectLinks:hover{
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(22, 1, 26);
-  border: 1px solid rgb(22, 1, 26);
+  background-color: rgb(35, 21, 112);
+  border: 2px solid rgb(35, 21, 112);
 }
 
 .githubLinks{
@@ -212,7 +220,7 @@ body{
   font-size: 16px;
   color:rgb(231, 213, 236);
   background-color: rgb(22, 1, 26);
-  border: 1px solid rgb(22, 1, 26);
+  border: 2px solid rgb(24, 54, 6);
   margin-left: 2%;
 }
 
@@ -220,60 +228,54 @@ body{
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(31, 29, 29);
-  border: 1px solid rgb(31, 29, 29);
-
+  background-color: rgb(24, 54, 6);
+  border: 2px solid rgb(24, 54, 6);
 }
 
 .bold{
   font-weight: bold;
 }
 
-.cardBorder{
-  border: 4px solid rgb(41, 3, 41);
+/* .cardBorder{
+  border: 4px solid rgb(73, 3, 58);
   border-radius: 2%;
-} 
+}  */
 
 .project1{
   grid-column: 1/2;
-  /* margin-left: 1%;
-  margin-right: 1%; */
-  margin: 1%;
-
+  margin: 2%;
+  margin-top: 2%;
 }
 
 .project2{
   grid-column: 3/4;
-  /* margin-left: 1%;
-  margin-right: 1%;
-  margin-top: 1; */
-  margin: 1%;
+  margin: 2%;
+  margin-top: 2%;
 
 }
 
 .project3{
   grid-column: 5/6;
-  /* margin-left: 1%;
-  margin-right: 1%; */
-  margin: 1%;
+  margin: 2%;
+  margin-top: 2%;
 
 }
 
 /* ************************************************ */
 /* Contact Page */
-/* 
-.formSpace{
+
+/* .formSpace{
   height: 54vh;
   width: 100%;
-}
+} */
 
 .contactForm{
-  border-radius: 2%;
+  /* border-radius: 2%;
   width: 38%;
-  height: 86vh;
+  height: 86vh; */
   margin-top: 1%;
-  margin-left: 32%;
-} */
+  /* margin-left: 32%; */
+}
 
 /* *********************************************** */
 /* Resume */
