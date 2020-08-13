@@ -23,7 +23,7 @@ class AboutMe extends Component {
 
 
                         <div className='imageMe'>
-                            <img src="/me3.gif" alt="me" className='imageSize' />
+                            <img src="/me3.gif" alt="me" className='imageSize' class='img-fluid' />
                         </div>
 
 
@@ -31,7 +31,7 @@ class AboutMe extends Component {
                             <p>Hi! My name is Mary Hooker and I'm a full stack software developer.  I'm most interested in front-end web development but I'm open to all positions and push for the best in everything I do. My education started with CodeCrew Code School and I intend to further my education throughout my career.</p>
                             <div className='logo'>
                                 <br/>
-                            <img src="/codeCrewLogo3.png" class='img-fluid' alt="logo" width='60%' />
+                            <img src="/logo4.webp" class='img-fluid' alt="logo" width='60%' />
                         </div>
                         </div>
 

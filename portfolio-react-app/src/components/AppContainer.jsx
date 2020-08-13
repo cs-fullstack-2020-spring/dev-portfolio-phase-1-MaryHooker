@@ -40,7 +40,7 @@ class AppContainer extends Component {
             <span>Photo by <a href="https://unsplash.com/@otenteko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anas Alshanti</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </div> */}
             <div  className='welcome'>
-                <img src="/welcome3.png" alt="welcome"/>
+                <img src="/welcome3.png" alt="welcome" class='img-fluid'/>
                 {/* <h1 id='display' className='welcome'>Welcome</h1> */}
             </div>
                 <br/>

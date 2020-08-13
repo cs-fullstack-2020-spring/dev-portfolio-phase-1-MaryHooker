@@ -18,8 +18,8 @@ class Projects extends Component {
                   
 
                         <div className='project1'>
-                            <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./dreamer.png" className='dreamImage' />
+                            <Card style={{ width: '423px', height: '404px' }} className='cardBorder' class='fluid'>
+                                <Card.Img variant="top" src="./dreamer.png" className='dreamImage' class='img-fluid'/>
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Dreamer</Card.Title>
                                     <Card.Text className='dreamDescription'>
@@ -31,8 +31,8 @@ class Projects extends Component {
                         </div>
 
                         <div className='project2'>
-                        <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./trex3.png" className='trexImage' />
+                        <Card style={{ width: '423px', height: '404px' }} className='cardBorder' class='img-fluid'>
+                                <Card.Img variant="top" src="./trex3.png" className='trexImage' class='img-fluid'/>
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>TREX Logistics</Card.Title>
                                     <Card.Text>
@@ -46,8 +46,8 @@ class Projects extends Component {
 
                         <div className='project3'>
                             
-                            <Card style={{ width: '433px', height: '404px' }} className='cardBorder'>
-                                <Card.Img variant="top" src="./reflections2.png" className='journalImage' />
+                            <Card style={{ width: '423px', height: '404px' }} className='cardBorder' class='img-fluid'>
+                                <Card.Img variant="top" src="./reflections2.png" className='journalImage' class='img-fluid'/>
                                 <Card.Body className='projectBody'>
                                     <Card.Title className='bold'>Reflections Journal</Card.Title>
                                     <Card.Text>

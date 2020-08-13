@@ -3,7 +3,7 @@ body{
   color:white;
   font-family: sans-serif;
   width: 100%;
-  background-color: rgb(22, 1, 22);
+  background-color: black;
 }
 
 .bg {
@@ -91,6 +91,12 @@ text-align: center;
   text-align: left;
 }
 
+/* .title{
+  color: rgb(172, 13, 172);
+
+} */
+
+
 /* ********************************************** */
 /* About Me Page */
 
@@ -99,16 +105,17 @@ text-align: center;
   grid-template-columns: repeat(6,1fr);
   /* grid-template-rows: repeat(3,1fr); */
   width: 100%;
-  margin-top: 6%;
+  margin-top: 5%;
 }
 
 .imageMe{
-  grid-column: 2/3;
+  grid-column: 1/3;
   /* margin-top: 14%; */
+ margin-left: 5%;
 }
 
 .imageSize{
-  margin-left: 14%;
+  /* margin-left: 14%; */
   /* border: 4px solid rgb(21, 33, 75); */
   border-radius: 8%;
   width: 125%;
@@ -116,16 +123,18 @@ text-align: center;
 
 .aboutMeText{
   font-size: 3vh;
-  grid-column: 4/6;
+  grid-column: 3/7;
   /* grid-row: 1; */
   /* display: block; */
   text-align: center;
   margin-top: 1%;
+  margin-right: 5%;
 }
-
+/* 
 .logo{
   text-align: center;
-}
+  width: 50%;
+} */
 
 /* ************************************************ */
 /* Projects Page */
@@ -195,7 +204,7 @@ text-align: center;
 } */
 
 .projectBody{
-  background-color: rgb(22, 1, 22);
+  background-color: black;
   color: rgb(235, 209, 235);
 }
 
@@ -203,7 +212,7 @@ text-align: center;
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(22, 1, 26);
+  background-color: black;
   border: 2px solid rgb(35, 21, 112);
 }
 
@@ -219,8 +228,8 @@ text-align: center;
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(22, 1, 26);
-  border: 2px solid rgb(24, 54, 6);
+  background-color: black;
+  border: 2px solid rgb(37, 88, 7);
   margin-left: 2%;
 }
 
@@ -228,8 +237,8 @@ text-align: center;
   font-weight: bold;
   font-size: 16px;
   color:rgb(231, 213, 236);
-  background-color: rgb(24, 54, 6);
-  border: 2px solid rgb(24, 54, 6);
+  background-color: rgb(37, 88, 7);
+  border: 2px solid rgb(37, 88, 7);
 }
 
 .bold{
