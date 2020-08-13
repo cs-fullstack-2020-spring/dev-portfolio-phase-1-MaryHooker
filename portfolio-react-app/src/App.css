@@ -38,8 +38,9 @@ body{
 
 .nav-link:hover{
   color: white;
-  background-color: rgba(75, 9, 75, 0.568);
+  /* background-color: rgba(75, 9, 75, 0.568); */
   text-decoration: none;
+  font-size: 105%;
 }
 
 /* .mr-auto{
@@ -101,6 +102,7 @@ body{
   font-size: 3vh;
   grid-column: 4/6;
   /* grid-row: 1; */
+  /* display: block; */
 
 }
 
@@ -251,29 +253,27 @@ body{
 
 /* ************************************************ */
 /* Contact Page */
-
+/* 
 .formSpace{
   height: 54vh;
   width: 100%;
 }
 
 .contactForm{
-  /* background-color: rgb(22, 2, 22); */
-  /* border: 6px solid rgb(22, 2, 22); */
   border-radius: 2%;
   width: 38%;
   height: 86vh;
-  /* margin-right: 17px; */
   margin-top: 1%;
   margin-left: 32%;
-}
+} */
 
 /* *********************************************** */
 /* Resume */
 
 .resumePosition{
-  margin-top: 1%;
-  margin-left: 35%;
+  /* align-content: center; */
+  /* justify-items: center; */
+  justify-content: center;
 }
 
 .resumeComp{
