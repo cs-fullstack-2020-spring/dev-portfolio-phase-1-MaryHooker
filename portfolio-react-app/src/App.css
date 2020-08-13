@@ -6,6 +6,14 @@ body{
   background-color: rgba(44, 2, 44, 0.466);
 }
 
+.bg {
+  background-image: url("/chris-ried-ieic5Tq8YMk-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Opening Page */
 
 .bg-dark{

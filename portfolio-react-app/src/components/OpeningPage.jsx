@@ -8,57 +8,17 @@ class OpeningPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
     }
   }
-
- 
-
 
 
   render() {
 
 
     return (
-      <div className='links'>
+      <div class='bg'>
                 <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                    
-           
-    
-                        {/* <ul className="nav">
-
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/" name='homeL' onClick={this.hideWelcome}>
-                                    Home
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/aboutMe" name='aboutMe' onClick={this.hideWelcome}>
-                                    About Me
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/projects" name='projects' onClick={this.hideWelcome}>
-                                    Projects
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/resume" name='resume' onClick={this.hideWelcome}>
-                                    Resume
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/contact" name='contact' onClick={this.hideWelcome}>
-                                    Contact
-                                </Link>
-                            </li>
-
-                        </ul> */}
-               
+          
                     <div>
                         {this.tagDisplay}
                         <h1 id='display' className='welcome'>Welcome</h1>
@@ -66,7 +26,7 @@ class OpeningPage extends Component {
                     <Router>
                     <div>
                     </div>                        
-                    <button><Link to='/aboutMe'>View Portfolio</Link></button>
+                    <button onclick="viewPortfolio"><Link to='/aboutMe'>View Portfolio</Link></button>
                     <Route path='/aboutMe' exact component={() => <AboutMe/>}/>
                     </Router>
                 </Animated>
