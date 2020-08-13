@@ -22,7 +22,7 @@ body{
 } */
 
 .linkColor{
-  color: white;
+  color: rgba(255, 255, 255, 0.822);
 }
 
 .linkColor:hover{
@@ -274,6 +274,7 @@ body{
   /* align-content: center; */
   /* justify-items: center; */
   justify-content: center;
+  margin-top: 1%;
 }
 
 .resumeComp{
