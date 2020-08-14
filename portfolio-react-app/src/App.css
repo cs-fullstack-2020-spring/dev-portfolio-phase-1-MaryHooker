@@ -83,6 +83,11 @@ body{
   margin: 2%;
 }
 
+.mhd{
+  color: rgb(177, 51, 177);
+  font-size: 5vh;
+}
+
 .portfolioButton{
 text-align: center;
 }
@@ -96,14 +101,34 @@ text-align: center;
 
 } */
 
-.socialIcons{
-  color: rgb(109, 13, 109);
-  margin: 1%;
+.socialIcon1{
+  color: rgb(114, 23, 114);
+  margin: 0.5%;
+  font-size:2vh;
 }
 
-.socialIcons:hover{
-  font-size: 2vh;
-  /* box-shadow: 3px 3px 3px #e38beb;} */
+.socialIcon1:hover{
+  color: rgb(187, 21, 187);
+}
+
+.socialIcon2{
+  color: rgb(25, 110, 99);
+  margin: 0.5%;
+  font-size:2vh;
+}
+
+.socialIcon2:hover{
+  color: rgb(37, 167, 149);
+}
+
+.socialIcon3{
+  color: rgb(56, 114, 23);
+  margin: 0.5%;
+  font-size:2vh;
+}
+
+.socialIcon3:hover{
+  color: rgb(78, 156, 32);
 }
 
 /* ********************************************** */
@@ -150,10 +175,15 @@ text-align: center;
 
 .projectsContainer{
   display: flex;
+  display: block;
   flex-flow: row wrap;
-  margin: 3%;
+  margin: 4%;
   text-align: center;
 
+}
+
+.projectTitle{
+  text-align: center;
 }
 
 /* .htmlLogo{
@@ -291,7 +321,7 @@ text-align: center;
   /* border-radius: 2%;
   width: 38%;
   height: 86vh; */
-  margin-top: 1%;
+  /* margin-top: 1%; */
   /* margin-left: 32%; */
 }
 

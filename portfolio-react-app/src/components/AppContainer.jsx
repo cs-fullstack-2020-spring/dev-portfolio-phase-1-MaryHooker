@@ -64,26 +64,26 @@ class AppContainer extends Component {
 { /* Bootstrap Navigation Bar */ }
    
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
-        <a class='navbar-brand'>Mary Hooker Development</a>
+        <a className='mhd' class='navbar-brand'>Mary Hooker Development</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent-3">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
         <Link to='/aboutMe'class="nav-link waves-effect waves-light">About Me</Link>
             </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <Link class="nav-link waves-effect waves-light" to='/projects'>Projects
               <span class="sr-only">(current)</span>
             </Link>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
             <Link class="nav-link waves-effect waves-light" to='/resume'>Resume
               <span class="sr-only">(current)</span>
             </Link>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
             <Link class="nav-link waves-effect waves-light" to='/contact'>Contact
               <span class="sr-only">(current)</span>
             </Link>
@@ -130,15 +130,15 @@ class AppContainer extends Component {
                                 { /* </Animated> */ }
                                 <section id='lab_social_icon_footer'>
         <div class='text-center center-block'>
-            <a href="https://github.com/MaryHooker" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+            <a href="https://github.com/MaryHooker" rel='noopener noreferrer' target='_blank' className='socialIcon1'>
                 <i id='social-gh' class='fa fa-github-square fa-3x social::before'>
                 </i>
             </a>
-            <a href="https://www.linkedin.com/in/mary-hooker-27b63a1b0/" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+            <a href="https://www.linkedin.com/in/mary-hooker-27b63a1b0/" rel='noopener noreferrer' target='_blank' className='socialIcon2'>
                 <i id='social-gp' class='fa fa-linkedin-square fa-3x social::before'>
                 </i>
             </a>
-            <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+            <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
                 <i id='social-gp' class='fa fa-envelope-square fa-3x social::before'>
                 </i>
             </a>

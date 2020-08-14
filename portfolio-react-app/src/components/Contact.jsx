@@ -12,7 +12,7 @@ class Contact extends Component {
         return (
             <div className='formSpace'>
                 <Animated animationIn="tada" animationOut="flipOutY" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcx6YgyarREoAP8rGTKijtNqPR_GF9Rqa9Qu-XVc3SyrcAKw/viewform?embedded=true" width="100%" height="625" frameborder="0" marginheight="0" marginwidth="0" className="contactForm" title='form'>Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcx6YgyarREoAP8rGTKijtNqPR_GF9Rqa9Qu-XVc3SyrcAKw/viewform?embedded=true" width="100%" height="628" frameborder="0" marginheight="0" marginwidth="0" className="contactForm" title='form'>Loading…</iframe>
                 </Animated>
             </div>
         );
