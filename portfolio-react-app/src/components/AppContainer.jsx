@@ -90,7 +90,7 @@ class AppContainer extends Component {
             </li>
         
         </ul>
-        <ul class="navbar-nav ml-auto nav-flex-icons">
+        {/* <ul class="navbar-nav ml-auto nav-flex-icons">
      
           <li class="nav-item active">
             <a class="nav-link waves-effect waves-light" href="https://github.com/MaryHooker">
@@ -103,9 +103,10 @@ class AppContainer extends Component {
             </a>
           </li>
  
-        </ul>
+        </ul> */}
       </div>
     </nav>
+  
   { /* </Navbar> */ }
  
                 { /* Routes for Simple Grid and React Cards example */ }
@@ -127,6 +128,24 @@ class AppContainer extends Component {
                     {openingPage}
                 </div> */ }
                                 { /* </Animated> */ }
+                                <section id='lab_social_icon_footer'>
+        <div class='text-center center-block'>
+            <a href="https://github.com/MaryHooker" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+                <i id='social-gh' class='fa fa-github-square fa-3x social::before'>
+                </i>
+            </a>
+            <a href="https://www.linkedin.com/in/mary-hooker-27b63a1b0/" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+                <i id='social-gp' class='fa fa-linkedin-square fa-3x social::before'>
+                </i>
+            </a>
+            <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcons'>
+                <i id='social-gp' class='fa fa-envelope-square fa-3x social::before'>
+                </i>
+            </a>
+
+        </div>
+
+    </section>
 
             </div>
         );

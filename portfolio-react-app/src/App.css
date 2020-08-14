@@ -80,7 +80,7 @@ body{
   grid-row: 3/6;
   font-size: 250%; */
   text-align: center;
-  margin: 1%;
+  margin: 2%;
 }
 
 .portfolioButton{
@@ -96,6 +96,15 @@ text-align: center;
 
 } */
 
+.socialIcons{
+  color: rgb(109, 13, 109);
+  margin: 1%;
+}
+
+.socialIcons:hover{
+  font-size: 2vh;
+  /* box-shadow: 3px 3px 3px #e38beb;} */
+}
 
 /* ********************************************** */
 /* About Me Page */

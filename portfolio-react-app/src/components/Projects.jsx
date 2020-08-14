@@ -60,6 +60,7 @@ class Projects extends Component {
                         </div>
                     </div >
                 </Animated>
+                <br/>
             </div >
         );
     }
