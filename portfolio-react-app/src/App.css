@@ -175,9 +175,10 @@ text-align: center;
 
 .projectsContainer{
   display: flex;
-  display: block;
+  /* display: block; */
   flex-flow: row wrap;
-  margin: 4%;
+  margin-top: 4%;
+  margin-left: 5%;
   text-align: center;
 
 }
