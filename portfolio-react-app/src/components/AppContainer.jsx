@@ -137,7 +137,7 @@ class AppContainer extends Component {
                 <i id='social-gp' class='fa fa-linkedin-square fa-3x social::before'>
                 </i>
             </a>
-            <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
+            <a href="mailto:mary.hook3rr@gmail.com" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
                 <i id='social-gp' class='fa fa-envelope-square fa-3x social::before'>
                 </i>
             </a>
