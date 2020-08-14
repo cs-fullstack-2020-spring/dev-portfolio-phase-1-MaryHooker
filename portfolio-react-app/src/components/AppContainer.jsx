@@ -36,9 +36,8 @@ class AppContainer extends Component {
         <div class='bg'>
         <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
 
-        {/* <div className='credit'>
-            <span>Photo by <a href="https://unsplash.com/@otenteko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anas Alshanti</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-            </div> */}
+        {/* <div className='credit'> */}
+        {/* <span>Photo by <a href="https://unsplash.com/@weirick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jake Weirick</a> on <a href="https://unsplash.com/s/photos/stars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>            </div> */}
             <div  className='welcome'>
                 <img src="/welcome3.png" alt="welcome" class='img-fluid'/>
                 {/* <h1 id='display' className='welcome'>Welcome</h1> */}
@@ -56,7 +55,7 @@ class AppContainer extends Component {
       )
     } else if (this.state.opening) {
       return (
-        <div>
+        <div class='bg'>
                 { /* <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}> */ }
                 <Router>
                     

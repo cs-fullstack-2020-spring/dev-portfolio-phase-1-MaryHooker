@@ -1,5 +1,5 @@
 body{
-  /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg); */
+  /* background-image: url("/jake-weirick-Q_RBVFFXR_g-unsplash.jpg"); */
   color:white;
   font-family: sans-serif;
   width: 100%;
@@ -7,7 +7,7 @@ body{
 }
 
 .bg {
-  /* background-image: url("/anas-alshanti-feXpdV001o4-unsplash.jpg"); */
+  /* background-image: url("/jake-weirick-Q_RBVFFXR_g-unsplash.jpg"); */
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
