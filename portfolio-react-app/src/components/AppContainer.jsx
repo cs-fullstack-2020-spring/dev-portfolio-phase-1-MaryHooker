@@ -63,7 +63,7 @@ class AppContainer extends Component {
 { /* Bootstrap Navigation Bar */ }
    
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
-        <a className='mhd' class='navbar-brand'>Mary Hooker Development</a>
+        <a class='navbar-brand text-warning' >Mary Hooker Development</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -87,7 +87,6 @@ class AppContainer extends Component {
               <span class="sr-only">(current)</span>
             </Link>
             </li>
-        
         </ul>
         {/* <ul class="navbar-nav ml-auto nav-flex-icons">
      
@@ -104,6 +103,25 @@ class AppContainer extends Component {
  
         </ul> */}
       </div>
+      <section id='lab_social_icon_footer'>
+        <div class='text-center center-block'>
+            <a href="https://github.com/MaryHooker" rel='noopener noreferrer' target='_blank' className='socialIcon1'>
+                <i id='social-gh' class='fa fa-github-square fa-3x social::before'>
+                </i>
+            </a>
+            <a href="https://www.linkedin.com/in/mary-hooker-27b63a1b0/" rel='noopener noreferrer' target='_blank' className='socialIcon2'>
+                <i id='social-gp' class='fa fa-linkedin-square fa-3x social::before'>
+                </i>
+            </a>
+            {/* <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
+                <i id='social-gp' class='fa fa-envelope-square fa-3x social::before'>
+                </i>
+            </a> */}
+
+        </div>
+
+    </section>
+ 
     </nav>
   
   { /* </Navbar> */ }
@@ -127,7 +145,7 @@ class AppContainer extends Component {
                     {openingPage}
                 </div> */ }
                                 { /* </Animated> */ }
-                                <section id='lab_social_icon_footer'>
+                                {/* <section id='lab_social_icon_footer'>
         <div class='text-center center-block'>
             <a href="https://github.com/MaryHooker" rel='noopener noreferrer' target='_blank' className='socialIcon1'>
                 <i id='social-gh' class='fa fa-github-square fa-3x social::before'>
@@ -137,14 +155,15 @@ class AppContainer extends Component {
                 <i id='social-gp' class='fa fa-linkedin-square fa-3x social::before'>
                 </i>
             </a>
-            <a href="mailto:mary.hook3rr@gmail.com" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
+            <a href="/contact" rel='noopener noreferrer' target='_blank' className='socialIcon3'>
                 <i id='social-gp' class='fa fa-envelope-square fa-3x social::before'>
                 </i>
             </a>
 
         </div>
 
-    </section>
+    </section> */}
+   
 
             </div>
         );

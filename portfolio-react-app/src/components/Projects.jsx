@@ -13,7 +13,7 @@ class Projects extends Component {
             <div>
                 <Animated  animationIn='fadeInRight'  animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                     <h1 className='projectTitle'>Projects</h1>
-                    <div className='projectsContainer'>
+                    <div className='projectsContainer'  class='card-deck'>
 
                         <div className='project1'>
                             <Card style={{ width: '413px', height: '404px' }} className='cardBorder' class='fluid'>
