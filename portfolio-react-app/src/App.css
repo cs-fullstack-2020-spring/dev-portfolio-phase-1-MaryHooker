@@ -168,7 +168,7 @@ text-align: center;
 }
 
 .textTitle{
-  color: rgb(160, 4, 160);
+  color: #ffc107;
 }
 
 /* 
@@ -203,6 +203,7 @@ text-align: center;
 
 .projectTitle{
   text-align: center;
+  color: #ffc107;
 }
 
 /* .htmlLogo{
