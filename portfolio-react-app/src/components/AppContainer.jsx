@@ -94,7 +94,7 @@ class AppContainer extends Component {
             <Link class="nav-link waves-effect waves-light" to='/projects'>Projects
               <span class="sr-only">(current)</span>
             </Link>
-            </li>
+            </li> 
             <li class="nav-item">
             <Link class="nav-link waves-effect waves-light" to='/resume'>Resume
               <span class="sr-only">(current)</span>

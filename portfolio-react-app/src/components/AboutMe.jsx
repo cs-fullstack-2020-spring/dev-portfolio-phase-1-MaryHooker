@@ -23,7 +23,7 @@ class AboutMe extends Component {
 
 
                         <div className='imageMe'>
-                            <img src="/me3.gif" alt="me" className='imageSize' class='img-fluid' />
+                            <img src="/ME2.jpeg" alt="me" className='imageSize' class='img-fluid' />
                         </div>
 
 
